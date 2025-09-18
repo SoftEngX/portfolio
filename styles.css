@@ -15,6 +15,7 @@ body {
 .sidebar {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: rgb(24, 23, 23);
     padding: 30px 20px;
     border-radius: 20px;
@@ -24,6 +25,18 @@ body {
 
 .sidebar img {
     width: 150px;
+}
+
+.contacts {
+
+}
+
+.socials {
+    display: flex;
+}
+
+.socials a img {
+    width: 20px;
 }
 
 .main-content {
