@@ -9,6 +9,7 @@ body {
     background: rgb(14, 13, 13);
     color: white;
     max-width: 1080px;
+    margin-top: 50px;
 }
 
 .sidebar {
@@ -18,4 +19,15 @@ body {
     padding: 30px 20px;
     border-radius: 20px;
     border: 1px solid rgb(46, 46, 46);
+    margin-right: 25px;
+}
+
+.sidebar img {
+    width: 150px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(24, 23, 23);
 }
