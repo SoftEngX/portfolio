@@ -56,27 +56,37 @@ body {
     margin: 30px 0;
 }
 
+.contact-item {
+    disp
+}
 
-.email-card {
+/* .contact-item {
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 15px;
-}
+    gap: 10px;
+    margin: 10px 0;
+} */
 
-.email-card .icon {
+/* .contact-item .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
     color: rgb(255, 217, 0);
     background-color: #1e1e1f;
-    padding: 13px 15px 7px 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(49, 49, 49);
-}
+} */
 
-.email-link p {
+
+
+.contact-link p {
     text-transform: uppercase;
     color: rgb(165, 165, 165);
 }
-.email-link a {
+.contact-link a {
     color: #e9e9e9;
 }
 
