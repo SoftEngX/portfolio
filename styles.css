@@ -9,6 +9,10 @@ a {
     color: rgb(177, 177, 177);
 }
 
+p {
+    color: rgb(177, 177, 177);
+}
+
 body {
     display: flex;
     background: rgb(14, 14, 14);
