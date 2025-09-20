@@ -110,7 +110,8 @@ body {
 
 .main-content {
     position: relative;
-    flex: 1;
+    min-width: 75%;
+    width: 75%;
     padding: 20px;
     background-color: #1e1e1f;
     border-radius: 20px;
@@ -171,7 +172,6 @@ body {
 }
 
 #doing {
-    grid-template-columns: 1fr 1fr;
     margin-top: 50px;
 }
 
@@ -179,6 +179,14 @@ body {
     color: #e9e9e9;
     font-weight: 600;
     line-height: 2px;
+}
+
+.full-card {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
 }
 
 .card {
