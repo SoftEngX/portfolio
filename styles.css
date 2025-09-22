@@ -231,7 +231,7 @@ body {
 }
 
 .block::-webkit-scrollbar {
-    height: 8px;
+    height: 5px;
 }
 
 .block::-webkit-scrollbar-thumb {
@@ -246,8 +246,8 @@ body {
 
 .block-skill {
     flex: 0 0 auto;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 140px;
     background: #222;
     border-radius: 16px;
     display: flex;
@@ -255,5 +255,16 @@ body {
     align-items: center;
     margin-right: 30px;
     cursor: pointer;
+    margin-bottom: 30px;
     /* font-size: 16px; */
+}
+
+.block-skill:hover {
+    background: rgb(35, 35, 35);
+    transform: scale(1.05);
+    transition: 0.3s;  
+}
+
+.all-skills img {
+    width: 100px;
 }
