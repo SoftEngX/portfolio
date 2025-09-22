@@ -184,19 +184,27 @@ body {
 .full-card {
     display: flex;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     flex-wrap: wrap;
 
 }
 
 .card {
     display: flex;
-    align-items: start;
-    border: 1px solid grey;
-    margin-top: 20px;
-    max-width: 400px;
-    height: 130px;
+    /* justify-content: center; */
+    /* border: 1px solid grey; */
+    /* margin-top: 20px; */
+    width: 400px;
+    /* height: 130px; */
+    padding: 30px 5px;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: #282828;
+    box-shadow: inset 1px 1px 0px rgb(49, 49, 49), inset -1px -1px 0px rgb(17, 17, 17);
+
 }
+
+
 
 .card-icon img {
     width: 40px;
