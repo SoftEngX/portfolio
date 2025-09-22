@@ -127,13 +127,18 @@ body {
     border-radius: 20px;
     border: 1px solid rgb(53, 53, 53);
     min-height: 100vh;
+    position: relative;
   }
 
 .header {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
     background-color: #282828;
+    border-radius: 0 20px 0 20px;
     top: 0;
     z-index: 1000;
 }
