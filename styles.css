@@ -221,3 +221,7 @@ body {
 #skills {
     margin-top: 50px;
 }
+
+.block {
+    display: flex;
+}
