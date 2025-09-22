@@ -224,4 +224,9 @@ body {
 
 .block {
     display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.all-skills {
+    
 }
