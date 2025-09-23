@@ -91,16 +91,22 @@ body {
     stroke-width: 1px;
 }
 
-
+.contact-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+}
 
 .contact-link p {
     text-transform: uppercase;
     color: rgb(165, 165, 165);
     margin-bottom: 5px;
+    font-size: 12px;
 }
 .contact-link a {
     color: #e9e9e9;
     cursor: pointer;
+    font-size: 13px;
 }
 
 .socials {
