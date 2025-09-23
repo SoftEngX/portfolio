@@ -260,7 +260,7 @@ body {
 }
 
 .block::-webkit-scrollbar-track {
-    background: #1e1e1f;
+    background: #545455;
     border-radius: 4px;
 }
 
