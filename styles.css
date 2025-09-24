@@ -299,3 +299,7 @@ body {
 .all-skills img {
     width: 100px;
 }
+
+.portfolio-grid img {
+    width: 350px;
+}
