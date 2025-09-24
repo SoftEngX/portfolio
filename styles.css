@@ -300,6 +300,18 @@ body {
     width: 100px;
 }
 
+#portfolio {
+
+}
+
+.portfolio-grid {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
 .portfolio-grid img {
     width: 350px;
 }
