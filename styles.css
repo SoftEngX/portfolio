@@ -310,6 +310,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    border-radius: 20px;
 }
 
 .portfolio-grid img {
