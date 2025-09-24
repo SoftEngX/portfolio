@@ -12,11 +12,18 @@ body {
     display: flex;
     justify-content: center;
     font-family: Arial, sans-serif;
-    background: #121212;
+    background-color: #121212;
     color: #fff;
     margin-top: 50px;
     padding: 0;
-  }
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+body.light-theme {
+    background-color: #fafafa;
+    color: #121212;
+}
 
 .container {
    max-width: 1250px;
@@ -304,14 +311,14 @@ body {
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* вместо space-between */
+    gap: 20px;
 }
 
 .portfolio-card {
     text-align: center;
     text-decoration: none;
     color: white;
-    flex: 1 1 250px; /* адаптивность */
+    flex: 1 1 250px;
     max-width: 270px;
 }
 
