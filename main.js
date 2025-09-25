@@ -1,7 +1,9 @@
 
+const toggle = document.getElementById('themeToggle');
+const body = document.body;
 
-const button = document.getElementById('theme-toggle');
-
-button.addEventListener('click', () => {
-  document.body.classList.toggle('light-theme');
+toggle.addEventListener('click', () => {
+  body.classList.toggle('dark');
+  body.classList.toggle('light');
 });
+

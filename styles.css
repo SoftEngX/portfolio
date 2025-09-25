@@ -10,6 +10,7 @@ a {
 
 body {
     display: flex;
+
     justify-content: center;
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -20,13 +21,17 @@ body {
 
 }
 
-body.light-theme {
-    background-color: #fafafa;
-    color: #121212;
+body.light {
+    background-color: #9fc0ce;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #fafafa;
 }
 
 .container {
-   max-width: 1250px;
+   max-width: 1300px;
    margin: 0 auto;
    width: 100%;
 }
@@ -176,7 +181,6 @@ body.light-theme {
 .header a.active {
     color: rgb(255, 217, 0);;
 }
-
 
 
 #about {
@@ -337,4 +341,38 @@ body.light-theme {
 .portfolio-card p {
     margin-top: 10px;
     font-size: 16px;
+}
+
+
+.theme-toggle {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: rgb(3, 0, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(53, 53, 53);
+}
+
+.theme-toggle svg {
+    width: 25px;
+    height: 25px;
+    stroke: currentColor;
+    color: rgb(200, 196, 209);
+}
+
+.icon {
+    display: none;
+}
+
+.dark .icon.moon {
+    display: block;
+}
+
+.light .icon.sun {
+    display: block;
 }
