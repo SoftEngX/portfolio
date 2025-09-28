@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="dark">
+<body>
 
     <div class="container">
         <div class="sidebar">
             <div class="sidebar-info-top">
-                <img src="img/man-300x300.png" alt="">
+                <img id="profilePic" src="img/man-300x300.png" alt="Profile">                  
                 <h2>Bekbolsun Akimov</h2>
                 <p>Software Developer</p>
             </div>
@@ -74,8 +74,12 @@
                         <li><a href="index.html">About</a></li>
                         <li><a href="resume.html">Resume</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a class="active" href="blog.html">Blog</a></li>
+                        <li><a class="active" href="skills.html">Skills</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <button id="themeToggle" class="theme-toggle" aria-label="Toggle them">
+                            <span class="sun-icond">&#9728;</span>
+                            <span class="moon-icon">&#9790;</span>
+                       </button>
                     </ul>
                 </nav>
             </header>
@@ -109,6 +113,10 @@
     </svg>
    
    </button>
+
+   <div id="imgModal" class="modal" aria-hidden="true" role="dialog">
+    <img id="fullImg" alt="Full size profile" />
+  </div>
 
    <script src="main.js"></script>
 </body>
