@@ -147,6 +147,9 @@ body.light .card:hover {
     padding: 7px 15px; 
   }
   
+  body.light .block-stack:hover {
+    background: #e0e0e0;
+  }
 
 .container {
    max-width: 1300px;
@@ -256,6 +259,11 @@ body.light .card:hover {
 .socials a img:hover {
     filter: invert(1%);
 }
+
+body.light .block::-webkit-scrollbar-thumb {
+    background: #319795; 
+}
+
 
 .main-content {
     margin-left: 320px; /* ровно уходит от sidebar */
