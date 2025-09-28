@@ -36,13 +36,25 @@ body.light {
   }
   
   body.light .sidebar-info-top p {
-    background-color: #e0e0e0;
-    color: #171717;
+    background-color: #319795;
+    color: #ececec;
   }
   
   body.light .contact-item .icon {
-    background-color: #f0f0f0;
+    background-color: #f6f5f5;
     box-shadow: inset 1px 1px 0px #ddd, inset -1px -1px 0px #bbb;
+  }
+
+  body.light .contact-item .icon svg {
+    stroke: #319795;
+    stroke-width: 2px;
+  }
+
+  body.light .contact-link p {
+    color: #319795;
+  }
+  body.light .contact-link a {
+    color: #171717;
   }
   
   /* Main content */
