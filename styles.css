@@ -101,11 +101,17 @@ body.light {
   body.light .card {
     background: #f6f6f6;
     color: #171717;
-    box-shadow: inset 1px 1px 0px rgb(235, 235, 235), inset -1px -1px 0px rgb(17, 17, 17);
-
-    /* box-shadow: 0px 2px 6px rgba(0,0,0,0.1); */
+    /* box-shadow: inset 2px 1px 0px rgb(240, 240, 240), inset -1px -1px 0px rgb(17, 17, 17); */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   }
-  
+
+body.light .card:hover {
+    background: #e0e0e0;
+}
+
+  body.light .card-icon img {
+    filter: invert(70%);
+  }
   body.light .card-content h3 {
     color: #222;
   }
