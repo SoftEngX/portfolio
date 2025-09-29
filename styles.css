@@ -611,6 +611,9 @@ body.light .block::-webkit-scrollbar-thumb {
   .theme-toggle {
     right: 40px;
   }
+  #about h1 {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -625,5 +628,17 @@ body.light .block::-webkit-scrollbar-thumb {
   }
   .sidebar-info-top h2 {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+  }
+  .main-content {
+    width: 100%;
+  }
+  #about h1 {
+    font-size: 19px;
   }
 }
