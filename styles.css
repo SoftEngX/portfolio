@@ -527,6 +527,17 @@ body.light .block::-webkit-scrollbar-thumb {
     font-size: 16px;
 }
 
+.contact {
+  display: none;
+  margin-top: 15px;
+  padding: 8px 12px;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 
 @media (max-width: 1250px) {
   .container {
@@ -550,6 +561,7 @@ body.light .block::-webkit-scrollbar-thumb {
   .divider, .contacts, .socials{
     display: none;
   }
+ 
 
   .main-content {
     margin-left: 0;           /* убираем сдвиг */

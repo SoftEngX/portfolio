@@ -55,6 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+const toggleBtn = document.querySelector('.contact');
+const socials = document.querySelector('.socials');
+const contacts = document.querySelector('.contacts');
+
+toggleBtn.addEventListener('click', () => {
+  socials.classList.toggle('active');
+  contacts.classList.toggle('active');
+});
+
 
 
 
