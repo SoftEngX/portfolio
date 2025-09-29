@@ -311,7 +311,9 @@ body.light .block::-webkit-scrollbar-thumb {
 .header {
     position: absolute;
     top: 0;
+    bottom: auto;
     right: 0;
+    left: auto;
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
@@ -403,6 +405,7 @@ body.light .block::-webkit-scrollbar-thumb {
 
 #doing {
     margin-top: 50px;
+    /* position: relative; */
 }
 
 #doing h2 {
@@ -413,6 +416,7 @@ body.light .block::-webkit-scrollbar-thumb {
 
 .full-card {
     display: flex;
+    grid-template-columns: 1fr 1fr;
     gap: 25px;
     margin-top: 40px;
     flex-wrap: wrap;
@@ -425,6 +429,7 @@ body.light .block::-webkit-scrollbar-thumb {
     padding: 25px 15px;
     gap: 15px;
     border-radius: 15px;
+    /* position: absolute; */
     background-color: #282828;
     box-shadow: inset 1px 1px 0px rgb(49, 49, 49), inset -1px -1px 0px rgb(17, 17, 17);
     transition: background 0.3s, color 0.3s;
@@ -520,4 +525,105 @@ body.light .block::-webkit-scrollbar-thumb {
 .portfolio-card p {
     margin-top: 10px;
     font-size: 16px;
+}
+
+
+@media (max-width: 1250px) {
+  .container {
+    display: flex;
+    flex-direction: column;   /* sidebar и main теперь колонкой */
+    align-items: center;
+  }
+
+  .sidebar {
+    position: static;         
+    width: 80%;              /* на всю ширину */
+    margin-bottom: 20px;      /* отступ вниз */
+  }
+
+  .sidebar-info-top {
+    flex-direction: row;      /* картинка и текст в ряд */
+    gap: 20px;                /* отступ между ними */
+    align-items: center;      /* выравнивание по центру */
+  }
+  
+  .divider, .contacts, .socials{
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 0;           /* убираем сдвиг */
+    width: 80%;              /* тянем на всю ширину */
+  }
+
+}
+
+@media (max-width: 1150px) {
+  .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card-content {
+    width: 100%;
+  }
+  .theme-toggle {
+    top: 130px;
+  }
+}
+
+@media (max-width: 1015px) {
+
+  .sidebar-info-top img {
+    width: 100px;
+  }
+  .header {
+    position: fixed;
+    top: 800px;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    background: transparent;
+    backdrop-filter: blur(90px);
+  }
+
+  .theme-toggle {
+    top: 20px;
+    transform: translateX(50%);
+  }
+
+  .card {
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    height: 150px;
+  }
+  .card-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .card-content h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .theme-toggle {
+    right: 40px;
+  }
+}
+
+@media (max-width: 770px) {
+  .sidebar-info-top h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .sidebar-info-top img {
+    width: 70px;
+  }
+  .sidebar-info-top h2 {
+    font-size: 16px;
+  }
 }
