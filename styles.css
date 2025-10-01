@@ -658,3 +658,7 @@ body.light .block::-webkit-scrollbar-thumb {
     font-size: 19px;
   }
 }
+
+@media (max-width: 375px) {
+  
+}
