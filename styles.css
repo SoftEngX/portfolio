@@ -586,6 +586,13 @@ textarea {
   border-radius: 12px;
 }
 
+.btn-submit {
+  padding: 5px 5px;
+  
+}
+
+
+
 
 
 @media (max-width: 1250px) {
