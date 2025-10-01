@@ -559,10 +559,15 @@ form {
   display: grid;
   gap: 30px;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 25px;
 }
 
 .input-wrapper input {
-  
+  padding: 13px 13px;
+}
+
+.input-subject {
+  padding: 13px 13px;
 }
 
 
@@ -571,6 +576,11 @@ textarea {
   font: 1em sans-serif;
   box-sizing: border-box;
   width: 100%;
+}
+
+.message {
+  height: 6em;
+  margin-top: 25px;
 }
 
 
