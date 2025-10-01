@@ -249,7 +249,7 @@ body.light .card:hover {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    color: rgb(255, 217, 0);
+    color: #f7d27c;
     background-color: #1e1e1f;
     border-radius: 10px;
     box-shadow: inset 1px 1px 0px rgb(49, 49, 49), inset -1px -1px 0px rgb(17, 17, 17);
@@ -555,6 +555,10 @@ form {
   display: block;
 }
 
+form h3 {
+  font-size: 24px;
+}
+
 .input-wrapper {
   display: grid;
   gap: 30px;
@@ -575,7 +579,7 @@ form {
 
 input,
 textarea {
-  font: 1em sans-serif;
+  font: 1em 'Poppins', sans-serif;
   box-sizing: border-box;
   width: 100%;
   background: transparent;
@@ -597,8 +601,13 @@ textarea {
   margin-left: auto;
   font-size: 16px;
   gap: 7px;
-  padding: 10px 13px;
+  padding: 15px 16px;
   border-radius: 13px;
+  color: #f7d27c;
+  background-color:#232323;
+  border: none;
+  box-shadow: 0px 1px 1px #343434;
+
 }
 
 
