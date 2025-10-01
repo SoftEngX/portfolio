@@ -542,6 +542,11 @@ body.light .block::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.google-maps {
+  width: 100%;
+  border-radius: 20px;
+}
+
 
 @media (max-width: 1250px) {
   .container {
