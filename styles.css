@@ -12,6 +12,10 @@ a {
     color: rgb(177, 177, 177);
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -546,6 +550,29 @@ body.light .block::-webkit-scrollbar-thumb {
   width: 100%;
   border-radius: 20px;
 }
+
+form {
+  display: block;
+}
+
+.input-wrapper {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input-wrapper input {
+  
+}
+
+
+input,
+textarea {
+  font: 1em sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 
 
 @media (max-width: 1250px) {
