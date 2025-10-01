@@ -564,10 +564,12 @@ form {
 
 .input-wrapper input {
   padding: 13px 13px;
+  border-radius: 12px;
 }
 
 .input-subject {
   padding: 13px 13px;
+  border-radius: 12px;
 }
 
 
@@ -581,6 +583,7 @@ textarea {
 .message {
   height: 6em;
   margin-top: 25px;
+  border-radius: 12px;
 }
 
 
