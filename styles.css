@@ -625,15 +625,17 @@ textarea {
 .skill-card {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
+  align-items: center;
   margin-top: 100px;
 }
 
 .skills-category {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 400px;
   padding: 10px;
+  margin: 20px 0;
 }
 
 .progress span {
