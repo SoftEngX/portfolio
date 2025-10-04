@@ -634,11 +634,15 @@ textarea {
 .skills-category {
   /* border: 1px solid red; */
   width: 400px;
-  padding: 10px;
   margin: 20px 0;
+  
+
+}
+
+.skills-category p {
   border-left: 1px solid rgb(251, 210, 106);
   border-bottom: 1px solid rgb(251, 210, 106);
-
+  margin-bottom: 20px;
 }
 
 .progress span {
