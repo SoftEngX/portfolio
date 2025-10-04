@@ -636,6 +636,9 @@ textarea {
   width: 400px;
   padding: 10px;
   margin: 20px 0;
+  border-left: 1px solid rgb(251, 210, 106);
+  border-bottom: 1px solid rgb(251, 210, 106);
+
 }
 
 .progress span {
@@ -643,6 +646,10 @@ textarea {
   display: block;
   height: 6px;
   border-radius: 10px;
+}
+
+.circle-skill {
+  
 }
 
 
