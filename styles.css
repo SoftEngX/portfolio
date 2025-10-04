@@ -618,6 +618,33 @@ textarea {
 
 }
 
+#skills {
+  /* align-items: center; */
+}
+
+.skill-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.skills-category {
+  border: 1px solid red;
+  width: 400px;
+  padding: 10px;
+}
+
+.progress span {
+  background: rgb(255, 204, 0);
+  display: block;
+  height: 6px;
+  border-radius: 10px;
+}
+
+
+
 
 
 
