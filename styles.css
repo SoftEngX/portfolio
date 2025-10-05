@@ -618,10 +618,6 @@ textarea {
 
 }
 
-#skills {
-  /* align-items: center; */
-}
-
 .skill-card {
   display: flex;
   flex-wrap: wrap;
@@ -639,10 +635,14 @@ textarea {
 
 }
 
-.skills-category p {
-  border-left: 1px solid rgb(251, 210, 106);
-  border-bottom: 1px solid rgb(251, 210, 106);
-  margin-bottom: 20px;
+.skills-category .skill-bar {
+  border-left: 0.3px solid rgb(225, 200, 136);
+  border-bottom: 0.3px solid rgb(225, 200, 136);
+  padding: 20px;
+}
+
+.skill-bar::nth-last-child {
+  bottom: none;
 }
 
 .progress span {
@@ -652,11 +652,11 @@ textarea {
   border-radius: 10px;
 }
 
-.circle-skill {
-  
+.language-skill {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
-
-
 
 
 
@@ -665,7 +665,7 @@ textarea {
 @media (max-width: 1250px) {
   .container {
     display: flex;
-    flex-direction: column;   /* sidebar и main теперь колонкой */
+    flex-direction: column;
     align-items: center;
   }
 
