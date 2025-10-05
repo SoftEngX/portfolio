@@ -659,6 +659,13 @@ textarea {
   justify-content: center;
 }
 
+.circle-skill {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
 .language-skill {
   display: flex;
   justify-content: space-between;
