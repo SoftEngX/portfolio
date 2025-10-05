@@ -672,6 +672,12 @@ textarea {
   transform: rotate(-90deg);
 }
 
+.circle-bg {
+  fill: none;
+  stroke: #333;
+  stroke-width: 3;
+}
+
 .language-skill {
   display: flex;
   justify-content: space-between;
