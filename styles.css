@@ -686,6 +686,13 @@ textarea {
   transition: stroke-dasharray 1s ease;
 }
 
+.circle-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .language-skill {
   display: flex;
   justify-content: space-between;
