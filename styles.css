@@ -658,6 +658,19 @@ textarea {
   margin-bottom: 5px;
 }
 
+.dots {
+  color: #ffeb3b;
+  letter-spacing: 2px;
+}
+
+.knowledge {
+  padding: 0;
+}
+
+.knowledge li {
+  
+}
+
 
 
 
