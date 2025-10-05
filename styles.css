@@ -652,6 +652,13 @@ textarea {
   border-radius: 10px;
 }
 
+.coding-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
 .language-skill {
   display: flex;
   justify-content: space-between;
