@@ -678,6 +678,14 @@ textarea {
   stroke-width: 3;
 }
 
+.circle {
+  fill: none;
+  stroke: #ffcc00;
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dasharray 1s ease;
+}
+
 .language-skill {
   display: flex;
   justify-content: space-between;
