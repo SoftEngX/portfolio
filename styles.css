@@ -668,7 +668,10 @@ textarea {
 }
 
 .knowledge li {
-  
+  background: #2a2a2a;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 6px;
 }
 
 
