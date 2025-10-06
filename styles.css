@@ -674,13 +674,13 @@ textarea {
 .circle-bg {
   fill: none;
   stroke: #333;
-  stroke-width: 2;
+  stroke-width: 3;
 }
 
 .circle {
   fill: none;
-  stroke: #ffd15e;
-  stroke-width: 2;
+  stroke: #f7d27c;
+  stroke-width: 3;
   /* stroke-linecap: round; */
   transition: stroke-dasharray 1s ease;
 }
@@ -691,6 +691,13 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.2em;
+  color:  #f7d27c;
+  font-weight: 500;
+}
+
+.circle-title {
+  margin-top: 5px;
+  
 }
 
 .language-skill {
