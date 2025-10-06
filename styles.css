@@ -680,8 +680,8 @@ textarea {
 
 .circle {
   fill: none;
-  stroke: #ffcc00;
-  stroke-width: 3;
+  stroke: #ffd15e;
+  stroke-width: 2;
   stroke-linecap: round;
   transition: stroke-dasharray 1s ease;
 }
