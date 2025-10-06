@@ -65,5 +65,36 @@ toggleBtn.addEventListener('click', () => {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const circles = document.querySelectorAll(".circle-skill");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const circle = entry.target.querySelector(".circle");
+        const percentText = entry.target.querySelector(".circle-percent");
+        const targetPercent = entry.target.dataset.percent;
+        let currentPercent = 0;
+
+        // Анимация круга
+        circle.style.strokeDasharray = `${targetPercent}, 100`;
+
+        // Анимация числа в центре
+        const interval = setInterval(() => {
+          if (currentPercent < targetPercent) {
+            currentPercent++;
+            percentText.textContent = currentPercent + "%";
+          } else {
+            clearInterval(interval);
+          }
+        }, 15);
+
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  circles.forEach(circle => observer.observe(circle));
+});
 
 
