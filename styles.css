@@ -697,7 +697,9 @@ textarea {
 
 .circle-title {
   margin-top: 5px;
-  
+  font-size: 0.95rem;
+  color: #ddd;
+  text-align: center;
 }
 
 .language-skill {
