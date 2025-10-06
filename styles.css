@@ -709,7 +709,19 @@ textarea {
 }
 
 .language-name {
-  
+  font-weight: 500;
+}
+
+.language-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.language-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #2e2e2e; /* фон точек */
 }
 
 .knowledge {
