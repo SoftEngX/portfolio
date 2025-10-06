@@ -708,6 +708,14 @@ textarea {
   text-align: center;
 }
 
+.language {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 0;
+}
+
 .language-name {
   font-weight: 500;
 }
@@ -721,7 +729,11 @@ textarea {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #2e2e2e; /* фон точек */
+  background: #4e4e4e; /* фон точек */
+}
+
+.language-dots span.filled {
+  background: #f7d27c;
 }
 
 .knowledge {
