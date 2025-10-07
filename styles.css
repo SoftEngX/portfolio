@@ -641,7 +641,9 @@ textarea {
   background: transparent;
 }
 
-
+.design-skill h3 {
+  margin-top: 0;
+}
 
 .skill-bar {
   width: 100%;
@@ -746,11 +748,11 @@ textarea {
   background: #f7d27c;
 }
 
-.knowledge {
+.skill-knowledge {
   padding: 0;
 }
 
-.knowledge li {
+.skill-knowledge li {
   background: #2a2a2a;
   padding: 8px 12px;
   border-radius: 10px;
