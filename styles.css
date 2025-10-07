@@ -715,18 +715,19 @@ textarea {
 
 .language-name {
   font-weight: 500;
+  font-size: 18px;
 }
 
 .language-dots {
   display: flex;
-  gap: 6px;
+  gap: 10px;
 }
 
 .language-dots span {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  margin: 10px 0 20px 0;
+  margin: 13px 0 30px 0;
   background: #4e4e4e; /* фон точек */
 }
 
