@@ -618,22 +618,30 @@ textarea {
 
 }
 
-.skill-card {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
+.skills-section {
+  padding: 50px 0;
 }
 
-.skills-category {
-  /* border: 1px solid red; */
-  width: 400px;
-  margin: 20px 0;
-  
-
+.skills-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 60px;
+  align-items: start;
+  /* align-items: center; */
+  /* margin-top: 100px; */
+}
+
+.skill-box {
+  background: transparent;
+}
+
+
 
 .skill-bar {
   width: 100%;
