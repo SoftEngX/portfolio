@@ -709,11 +709,8 @@ textarea {
 }
 
 .language {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
-  margin-left: 0;
+  display: block;
+  /* align-items: center; */
 }
 
 .language-name {
@@ -729,6 +726,7 @@ textarea {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+  margin: 10px 0 20px 0;
   background: #4e4e4e; /* фон точек */
 }
 
@@ -751,7 +749,7 @@ textarea {
 
 
 
-@media (max-width: 1250px) {
+@media (max-width: 1280px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -773,7 +771,6 @@ textarea {
   .divider, .contacts, .socials{
     display: none;
   }
- 
 
   .main-content {
     margin-left: 0;           /* убираем сдвиг */
