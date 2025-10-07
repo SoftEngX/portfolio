@@ -647,9 +647,12 @@ textarea {
   padding: 20px; */
 }
 
-.skill-bar::nth-last-child {
-  bottom: none;
+.skill-progress {
+  height: 100%;
+  background: #f7d27c;
+  border-radius: 4px;
 }
+
 
 .progress span {
   background: #f7d27c;
