@@ -641,10 +641,17 @@ textarea {
   background: transparent;
 }
 
+
+
 .design__icon-title {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 10px;
+}
+
+.design__icon-title svg {
+  font-size: 2em;
+  color:#f7d27c;
 }
 
 .design-skill h3 {
@@ -675,6 +682,17 @@ textarea {
   /* display: block; */
   height: 100%;
   border-radius: 4px;
+}
+
+.coding__icon-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coding__icon-title svg {
+  font-size: 2em;
+  color: #f7d27c;
 }
 
 .coding-skills {
@@ -735,7 +753,7 @@ textarea {
 .language__icon-title {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 10px;
 }
 
 .language__icon-title svg {
@@ -763,6 +781,17 @@ textarea {
 
 .language-dots span.filled {
   background: #f7d27c;
+}
+
+.knowledge__icon-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.knowledge__icon-title svg {
+  font-size: 2em;
+  color: #f7d27c;
 }
 
 .skill-knowledge {
