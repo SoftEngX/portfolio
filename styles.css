@@ -753,12 +753,19 @@ textarea {
 }
 
 .skill-knowledge li {
-  background: #2a2a2a;
-  padding: 8px 12px;
   border-radius: 10px;
   margin-bottom: 6px;
 }
 
+ .skill-knowledge ul li .flex__it {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-knowledge ul li .flex__it svg {
+  color: #f7d27c;
+}
 
 
 
