@@ -624,22 +624,28 @@ textarea {
 
 .skills-title {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 30px;
 }
 
 .skill-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px 60px;
+  gap: 70px 60px;
   align-items: start;
+  border-left: 1px solid #4e4e4e;
+  padding-left: 20px;
+  border-right: 1px solid #4e4e4e;
+  padding-right: 20px;
   /* align-items: center; */
   /* margin-top: 100px; */
 }
 
 .skill-box {
   background: transparent;
+  padding-left: 25px;
 }
+
 
 
 
@@ -654,8 +660,11 @@ textarea {
   color:#f7d27c;
 }
 
-.design-skill h3 {
-  margin-top: 0;
+.design__icon-title,
+.language__icon-title,
+.coding__icon-title,
+.knowledge__icon-title {
+  margin-bottom: 30px;
 }
 
 .skill-bar {
@@ -812,6 +821,8 @@ textarea {
 .skill-knowledge ul li .flex__it svg {
   color: #f7d27c;
 }
+
+
 
 
 
