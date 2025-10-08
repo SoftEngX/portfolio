@@ -160,6 +160,19 @@ body.light .card:hover {
     color: #fff;
   }
 
+  body.light .design__icon-title svg {
+    color: #319795;
+  }
+  body.light .language__icon-title svg {
+    color: #319795;
+  }
+  body.light .coding__icon-title svg {
+    color: #319795;
+  }
+  body.light .knowledge__icon-title svg {
+    color: #319795;
+  }
+
 .container {
    max-width: 1300px;
    margin: 0 auto;
