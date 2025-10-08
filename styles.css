@@ -641,6 +641,12 @@ textarea {
   background: transparent;
 }
 
+.design__icon-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
 .design-skill h3 {
   margin-top: 0;
 }
@@ -724,6 +730,17 @@ textarea {
 .language {
   display: block;
   /* align-items: center; */
+}
+
+.language__icon-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.language__icon-title svg {
+  font-size: 2em;
+  color:#f7d27c;
 }
 
 .language-name {
