@@ -179,6 +179,12 @@ body.light .card:hover {
   body.light .language-dots span.filled {
     background: #319795;
   }
+  body.light .circle {
+    stroke: #319795;
+  }
+  body.light .circle-percent {
+    color: #319795;
+  }
 
 .container {
    max-width: 1300px;
