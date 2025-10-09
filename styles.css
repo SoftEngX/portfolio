@@ -603,6 +603,17 @@ form h3 {
 .input-wrapper input {
   padding: 13px 13px;
   border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.input-wrapper input:hover {
+  border: 1px solid #f6edda;
+  outline: none;
+}
+
+.input-wrapper input:focus {
+  border: 1px solid #f7d27c;
+  outline: none;
 }
 
 .input-subject {
