@@ -1012,12 +1012,14 @@ button,
     height: 12px;
     margin: 10px 0 20px 0;
   }
-  .language {
-    /* width: 250px; */
+  .circle-skill {
+    width: 100px;
+    height: 100px;
   }
-  .coding {
-    
+  .circle-percent {
+    font-size: 1em;
   }
+
 }
 
 @media (max-width: 900px) {
@@ -1026,6 +1028,15 @@ button,
   }
   #about h1 {
     font-size: 24px;
+  }
+  .skill-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+  }
+  .skill-box {
+    width: 100%;
   }
 }
 
