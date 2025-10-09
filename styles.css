@@ -613,6 +613,18 @@ form h3 {
 
 .input-wrapper input:focus {
   border: 1px solid #f7d27c;
+  color: #bebebe;
+  outline: none;
+}
+
+.input-subject:hover {
+  border: 1px solid #f6edda;
+  outline: none;
+}
+
+.input-subject:focus {
+  border: 1px solid #f7d27c;
+  color: #bebebe;
   outline: none;
 }
 
@@ -640,6 +652,17 @@ textarea {
   border-radius: 12px;
   padding: 15px 0 0 15px;
   margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.message:hover {
+  border: 1px solid #f6edda;
+  outline: none;
+}
+
+.message:focus {
+  border: 1px solid #f7d27c;
+  outline: none;
 }
 
 .btn-submit {
