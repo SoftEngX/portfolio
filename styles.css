@@ -678,7 +678,12 @@ textarea {
   background-color:#232323;
   border: none;
   box-shadow: 0px 1px 1px #343434;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
+.btn-submit:hover {
+  transform: scale(1.05);
 }
 
 
