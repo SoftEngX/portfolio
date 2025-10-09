@@ -186,10 +186,32 @@ body.light .card:hover {
     border: 1px solid #319795;
   }
   body.light .input-wrapper input:hover {
-    border: 1px solid;
+    border: 1px solid #319795;
     color: #3a3a3a;
+    outline: none;
   }
   body.light .input-wrapper input:focus {
+    border: 1px solid #319795;
+    color: #3a3a3a;
+    outline: none;
+  }
+  body.light .input-subject {
+    border: 1px solid #319795;
+  }
+  body.light .input-subject:hover {
+    border: 1px solid #319795;
+  }
+  body.light .input-subject:focus{
+    border: 1px solid #319795;
+    color: #3a3a3a;
+  }
+  body.light .message {
+    border: 1px solid #319795;
+  }
+  body.light .message:hover {
+    border: 1px solid #319795;
+  }
+  body.light .message:focus{
     border: 1px solid #319795;
     color: #3a3a3a;
   }
