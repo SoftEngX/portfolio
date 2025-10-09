@@ -1038,11 +1038,17 @@ button,
   .skill-box {
     width: 100%;
   }
+  .header {
+    height: 220px;
+  }
 }
 
 @media (max-width: 770px) {
   .sidebar-info-top h2 {
     font-size: 20px;
+  }
+  .header {
+    height: 200px;
   }
 }
 
@@ -1065,6 +1071,30 @@ button,
   #about h1 {
     font-size: 19px;
   }
+  .header li a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 100px;
+    /* margin: 0; */
+  }
+  .header li a {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 412px) {
+  .header {
+    height: 80px;
+    /* margin: 0; */
+  }
+  .header li a {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1083,5 +1113,12 @@ button,
   }
   .theme-toggle span {
     font-size: 12px;
+  }
+  .circle-skill {
+    width: 150px;
+    height: 150px;
+  }
+  .circle-percent {
+    font-size: 1.5em;
   }
 }
