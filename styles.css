@@ -966,7 +966,7 @@ button,
   }
 }
 
-@media (max-width: 1015px) {
+@media (max-width: 1024px) {
 
   .sidebar-info-top img {
     width: 100px;
@@ -999,6 +999,24 @@ button,
   }
   .card-content h3 {
     font-size: 14px;
+  }
+  .design__icon-title svg {
+    font-size: 1.5em;
+    /* width: 250px; */
+  }
+  .language-name {
+    font-size: 15px;
+  }
+  .language-dots span {
+    width: 12px;
+    height: 12px;
+    margin: 10px 0 20px 0;
+  }
+  .language {
+    /* width: 250px; */
+  }
+  .coding {
+    
   }
 }
 
