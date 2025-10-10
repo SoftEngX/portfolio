@@ -30,6 +30,13 @@ toggle.addEventListener('click', () => {
   }
 });
 
+function openModal() {
+  document.getElementById("modal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("modal").style.display ="none"
+}
 
 
 // const toggleBtn = document.querySelector('.contact');
