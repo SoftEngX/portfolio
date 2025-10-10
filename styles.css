@@ -12,7 +12,8 @@ a {
     color: rgb(177, 177, 177);
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
 }
 
@@ -907,6 +908,14 @@ textarea {
 
 .skill-knowledge ul li .flex__it svg {
   color: #f7d27c;
+}
+
+.resume-ecucation h3 {
+  font-size: 24px;
+}
+
+.resume-ecucation span {
+  color:#f7d27c ;
 }
 
 body, 
