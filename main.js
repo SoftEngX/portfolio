@@ -31,12 +31,21 @@ toggle.addEventListener('click', () => {
 });
 
 function openModal() {
-  document.getElementById("modal").style.display = "flex";
+  const modal = document.getElementById("modal");
+  modal.style.display = "flex"; // нужно, чтобы элемент появился
+  setTimeout(() => {
+    modal.classList.add("show"); // запускает анимацию
+  }, 10); // небольшая задержка, чтобы transition сработал
 }
 
 function closeModal() {
-  document.getElementById("modal").style.display ="none"
+  const modal = document.getElementById("modal");
+  modal.classList.remove("show"); // запускает исчезновение
+  setTimeout(() => {
+    modal.style.display = "none"; // скрывает после анимации
+  }, 300); // совпадает с transition: 0.3s
 }
+
 
 
 // const toggleBtn = document.querySelector('.contact');
