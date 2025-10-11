@@ -1014,9 +1014,6 @@ button,
     background: transparent;
     backdrop-filter: blur(90px);
   }
-
-
-
   .card {
     justify-content: center;
     align-items: center;
@@ -1066,18 +1063,13 @@ button,
   .skill-box {
     width: 100%;
   }
-  .header {
-    height: 220px;
-  }
 }
 
 @media (max-width: 770px) {
   .sidebar-info-top h2 {
     font-size: 20px;
   }
-  .header {
-    height: 200px;
-  }
+
 }
 
 @media (max-width: 720px) {
@@ -1096,24 +1088,21 @@ button,
   .main-content {
     width: 100%;
   }
-  .header {
+  /* .header {
     height: auto;
-  }
+  } */
   #about h1 {
     font-size: 19px;
   }
   .header li a {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 480px) {
-  .header {
-    height: 100px;
-    /* margin: 0; */
-  }
+
   .header li a {
-    font-size: 12px;
+    font-size: 9px;
   }
   .theme-toggle {
     margin-left: 0px;
@@ -1126,20 +1115,17 @@ button,
 
 
 @media (max-width: 412px) {
-  .header {
-    height: 80px;
-    /* margin: 0; */
-  }
+
   .header li a {
-    font-size: 11px;
+    font-size: 8px;
   }
 }
 
 @media (max-width: 375px) {
   
-  .header {
+  /* .header {
     height: 60px;
-  }
+  } */
   .header ul {
     gap: 10px;
   }
