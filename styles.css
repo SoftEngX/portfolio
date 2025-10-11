@@ -959,6 +959,7 @@ button,
     margin-bottom: 20px;      /* отступ вниз */
   }
 
+
   .sidebar-info-top {
     flex-direction: row;      /* картинка и текст в ряд */
     gap: 20px;                /* отступ между ними */
@@ -976,6 +977,10 @@ button,
   .main-content {
     margin-left: 0;           /* убираем сдвиг */
     width: 80%;              /* тянем на всю ширину */
+  }
+  .theme-toggle {
+    top: 50px;
+    right: 250px;
   }
 
 }
