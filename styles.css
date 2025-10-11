@@ -415,8 +415,8 @@ body.light .block::-webkit-scrollbar-thumb {
 
 .theme-toggle {
     position: fixed;
-    top: 65px;
-    right: 210px;
+    /* top: 50px;
+    right: 140px; */
     cursor: pointer;
     border: none;
     padding: 5px 10px;
@@ -922,13 +922,15 @@ textarea {
   display: none;
   position: absolute;
   top: 50px;
-  right: 135px;
-  padding: 15px 11px;
+  right: 134px;
+  /* padding: 15px 14px; */
+  width: 120px;
+  height: 40px;
   color: #f7d27c;
-  background-color: #121212;
-  border-radius: 0 20px 0 0;
+  background-color: #202022;
+  border-radius: 0 20px 0 20px;
   border: none;
-  box-shadow: inset 8px 0 10px #f7d27c;
+  box-shadow: inset 0 16px 30px hsla(0, 1%, 32%, 0.125);
 }
 
 body, 
@@ -971,6 +973,7 @@ button,
     display: none;
   }
   .toggle-btn {
+    position: absolute;
     display: block;
   }
 
@@ -980,7 +983,7 @@ button,
   }
   .theme-toggle {
     top: 50px;
-    right: 250px;
+    right: 80px;
   }
 
 }
