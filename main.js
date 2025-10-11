@@ -53,6 +53,7 @@ const socials = document.getElementById("socials");
 
 toggleBtn.addEventListener("click", () => {
   contacts.style.display = contacts.style.display === "block" ? "none" : "block";
+  socials.style.display = socials.style.display === "block" ? "none" : "block";
 });
 
 
