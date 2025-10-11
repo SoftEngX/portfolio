@@ -921,9 +921,12 @@ textarea {
 .toggle-btn {
   display: none;
   position: absolute;
-  top: 80px;
-  right: 140px;
-  padding: 10px 7px;
+  top: 50px;
+  right: 135px;
+  padding: 15px 11px;
+  color: #f7d27c;
+  border-radius: 0 20px 0 0;
+  border: none;
 }
 
 body, 
