@@ -365,13 +365,13 @@ body.light .block::-webkit-scrollbar-thumb {
 
 
 .main-content {
+  position: relative;
     margin-left: 320px; /* ровно уходит от sidebar */
     padding: 40px;
     background: #1e1e1f;
     border-radius: 20px;
     border: 1px solid rgb(53, 53, 53);
     min-height: 100vh;
-    position: relative;
     transition: background 0.3s, color 0.3s;
   }
 
@@ -387,7 +387,6 @@ body.light .block::-webkit-scrollbar-thumb {
     background-color: #282828;
     border-radius: 0 20px 0 20px;
     border: 1px solid rgb(53, 53, 53);
-    top: 0;
     z-index: 1000;
     transition: background 0.3s, color 0.3s;
 
@@ -415,6 +414,9 @@ body.light .block::-webkit-scrollbar-thumb {
 
 .theme-toggle {
     position: fixed;
+    top: 65px;
+    right: 90px;
+    /* margin-left: 40px; */
     /* top: 50px;
     right: 140px; */
     cursor: pointer;
