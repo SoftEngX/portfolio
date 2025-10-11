@@ -1100,9 +1100,11 @@ button,
 }
 
 @media (max-width: 480px) {
-
+  .header ul {
+    gap: 20px;
+  }
   .header li a {
-    font-size: 9px;
+    font-size: 12px;
   }
   .theme-toggle {
     margin-left: 0px;
@@ -1115,22 +1117,20 @@ button,
 
 
 @media (max-width: 412px) {
-
+  .header ul {
+    gap: 15px;
+  }
   .header li a {
-    font-size: 8px;
+    font-size: 11px;
   }
 }
 
 @media (max-width: 375px) {
-  
-  /* .header {
-    height: 60px;
-  } */
   .header ul {
-    gap: 10px;
+    gap: 12px;
   }
-  .navbar li a {
-    font-size: 12px;
+  .header li a {
+    font-size: 10px;
   }
   .theme-toggle {
     padding: 4px 8px ;
