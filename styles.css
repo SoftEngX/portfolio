@@ -955,8 +955,9 @@ button,
     gap: 20px;                /* отступ между ними */
     align-items: center;      /* выравнивание по центру */
   }
-  
-  .divider, .contacts, .socials{
+  .divider,
+  .contacts,
+  .socials {
     display: none;
   }
   .toggle-btn {

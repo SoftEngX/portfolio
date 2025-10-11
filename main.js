@@ -44,7 +44,16 @@ function closeModal() {
   setTimeout(() => {
     modal.style.display = "none"; // скрывает после анимации
   }, 300); // совпадает с transition: 0.3s
-}
+};
+
+
+const toggleBtn = document.getElementById("toggleContacts");
+const contacts = document.getElementById("contacts");
+const socials = document.getElementById("socials");
+
+toggleBtn.addEventListener("click", () => {
+  contacts.style.display = contacts.style.display === "block" ? "none" : "block";
+});
 
 
 
