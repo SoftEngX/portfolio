@@ -414,9 +414,9 @@ body.light .block::-webkit-scrollbar-thumb {
 
 .theme-toggle {
     position: fixed;
-    top: 65px;
-    right: 90px;
-    /* margin-left: 40px; */
+    /* top: 65px;
+    right: 90px; */
+    margin-left: 40px;
     /* top: 50px;
     right: 140px; */
     cursor: pointer;
@@ -983,10 +983,7 @@ button,
     margin-left: 0;           /* убираем сдвиг */
     width: 80%;              /* тянем на всю ширину */
   }
-  .theme-toggle {
-    top: 50px;
-    right: 80px;
-  }
+
 
 }
 
@@ -998,9 +995,7 @@ button,
   .card-content {
     width: 100%;
   }
-  .theme-toggle {
-    top: 130px;
-  }
+
 }
 
 @media (max-width: 1024px) {
@@ -1019,10 +1014,7 @@ button,
     backdrop-filter: blur(90px);
   }
 
-  .theme-toggle {
-    top: 20px;
-    transform: translateX(50%);
-  }
+
 
   .card {
     justify-content: center;
@@ -1060,9 +1052,7 @@ button,
 }
 
 @media (max-width: 900px) {
-  .theme-toggle {
-    right: 40px;
-  }
+
   #about h1 {
     font-size: 24px;
   }
@@ -1105,6 +1095,9 @@ button,
   .main-content {
     width: 100%;
   }
+  .header {
+    height: auto;
+  }
   #about h1 {
     font-size: 19px;
   }
@@ -1120,6 +1113,13 @@ button,
   }
   .header li a {
     font-size: 12px;
+  }
+  .theme-toggle {
+    margin-left: 0px;
+    padding: 6px 12px;
+  }
+  .theme-toggle span {
+    font-size: 15px;
   }
 }
 
@@ -1146,7 +1146,8 @@ button,
     font-size: 12px;
   }
   .theme-toggle {
-    right: 19px;
+    padding: 4px 8px ;
+    margin-left: 20px;
   }
   .theme-toggle span {
     font-size: 12px;
