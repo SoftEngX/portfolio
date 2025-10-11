@@ -918,6 +918,10 @@ textarea {
   color:#f7d27c ;
 }
 
+.toggle-btn {
+  display: none;
+}
+
 body, 
 .sidebar, 
 .main-content, 
@@ -954,6 +958,9 @@ button,
   
   .divider, .contacts, .socials{
     display: none;
+  }
+  .toggle-btn {
+    display: block;
   }
 
   .main-content {
