@@ -50,10 +50,13 @@ function closeModal() {
 const toggleBtn = document.getElementById("toggleContacts");
 const contacts = document.getElementById("contacts");
 const socials = document.getElementById("socials");
+const divider = document.getElementById("divider");
 
 toggleBtn.addEventListener("click", () => {
   contacts.style.display = contacts.style.display === "block" ? "none" : "block";
   socials.style.display = socials.style.display === "block" ? "none" : "block";
+  divider.style.display = divider.style.display === "block" ? "none" : "block";
+
 });
 
 
