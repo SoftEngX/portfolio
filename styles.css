@@ -984,8 +984,8 @@ button,
   }
 
   .main-content {
-    margin-left: 0;           /* убираем сдвиг */
-    width: 80%;              /* тянем на всю ширину */
+    margin-left: 0;
+    width: 80%;       
   }
 
 
