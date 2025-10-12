@@ -284,12 +284,15 @@ body.light .card:hover {
 .modal.show .modal-content {
   transform: scale(1);
 }
-
-.sidebar-info-top p {
+.full-name h2 {
+  font-weight: 500;
+}
+.full-name p {
     background-color: rgb(46, 46, 46);
-    padding: 5px 15px;
+    text-align: center;
+    padding: 8px 0;
     font-size: 14px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .divider {
@@ -964,9 +967,9 @@ button,
 
 
   .sidebar-info-top {
-    flex-direction: row;      /* картинка и текст в ряд */
-    gap: 20px;                /* отступ между ними */
-    align-items: center;      /* выравнивание по центру */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
   }
   .divider,
   .contacts,
