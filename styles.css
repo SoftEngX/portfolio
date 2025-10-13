@@ -538,41 +538,34 @@ body.light .block::-webkit-scrollbar-thumb {
 
 .stack-scroll {
   display: flex;
-  overflow-x: auto;
-  /* gap: 30px; */
-  padding: 10px;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
+  overflow-x: scroll;
+  scrollbar-width: auto;
+  gap: 20px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .stack-item {
   flex: 0 0 auto;
   width: 150px;
   height: 150px;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
-  margin: 0 15px;
 }
 
 .stack-item:hover {
   transform: scale(1.1);
+  background: #2c2c2c;
 }
 
 .stack-item img {
   width: 250px;
+  padding: 10px;
 }
 
-.stack-scroll::-webkit-scrollbar {
-  height: 6px;
-}
-.stack-scroll::-webkit-scrollbar-thumb {
-  background-color: #f7d27c;
-  border-radius: 3px;
-}
+
 
 .portfolio-grid {
     margin-top: 70px;
