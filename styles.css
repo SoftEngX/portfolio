@@ -153,7 +153,7 @@ body.light .card:hover {
     background: #e0e0e0;
   }
   
-  body.light .btn-submit {
+  body.light .btn_submit {
     background-color: #319795;
     color: #fff;
   }
@@ -713,7 +713,7 @@ textarea {
   outline: none;
 }
 
-.btn-submit {
+.btn_submit {
   display: flex;
   align-items: center;
   width: max-content;
@@ -730,7 +730,7 @@ textarea {
   transition: all 0.3s ease;
 }
 
-.btn-submit:hover {
+.btn_submit:hover {
   opacity: 0.6;
 }
 
