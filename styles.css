@@ -122,11 +122,11 @@ body.light .card:hover {
     color: #555;
   }
   
-  body.light .block-skill {
+  body.light .stack-item {
     background: #f9f9f9;
     border: 1px solid #ddd;
   }
-  body.light .block-skill:hover {
+  body.light .stack-item:hover {
     background: #eaeaea;
   }
   
