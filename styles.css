@@ -532,44 +532,34 @@ body.light .block::-webkit-scrollbar-thumb {
 }
 
 
-#stack {
+.stack {
     margin-top: 50px;
 }
 
-.block {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+.stack-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 
-.block::-webkit-scrollbar {
-    height: 5px;
+.stack-item {
+  flex: 0 0 auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.block::-webkit-scrollbar-thumb {
-    background: #f7d27c;
-    border-radius: 4px;
-}
-
-.block::-webkit-scrollbar-track {
-    background: #545455;
-    border-radius: 4px;
-}
-
-.block-stack {
-    padding: 20px;
-}
-
-.block-stack:hover {
-    background: rgb(35, 35, 35);
-    transform: scale(1.05);
-    transition: 0.3s;  
-}
-
-.block-stack img {
-    width: 80px;
+.stack-item img {
+  max-width: 60%;
+  max-height: 60%;
 }
 
 .portfolio-grid {
