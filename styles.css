@@ -124,10 +124,13 @@ body.light .card:hover {
   
   body.light .stack-item {
     background: #f9f9f9;
-    border: 1px solid #ddd;
   }
   body.light .stack-item:hover {
     background: #eaeaea;
+  }
+  body.light .stack-scroll::-webkit-scrollbar-thumb {
+    background-color: #319795;
+    border-radius: 4px;
   }
   
   body.light #about p,
@@ -292,7 +295,7 @@ body.light .card:hover {
     text-align: center;
     padding: 8px 0;
     font-size: 14px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .divider {
