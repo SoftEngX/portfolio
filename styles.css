@@ -547,8 +547,8 @@ body.light .block::-webkit-scrollbar-thumb {
 
 .stack-item {
   flex: 0 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -559,7 +559,7 @@ body.light .block::-webkit-scrollbar-thumb {
 }
 
 .stack-item:hover {
-  background-color: #3a3a3a;
+  transform: scale(1.1);
 }
 
 .stack-item img {
