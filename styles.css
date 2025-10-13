@@ -85,9 +85,9 @@ body.light {
   }
   
   body.light .header {
-    background: #f1efef;
+    background: #eeeeee;
     color: #171717;
-    border: 1px solid #ccc;
+    border: 1px solid #319795;
   }
   
   body.light .header a {
