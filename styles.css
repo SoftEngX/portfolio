@@ -958,6 +958,17 @@ textarea {
 .timeline-list li span {
   color:#f7d27c ;
 }
+.timeline-text li {
+  color: #d6d6d6;
+}
+.timeline-text li::before {
+  content: "\2022";
+  color: gold;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 
 .form-btn {
   display: flex;
