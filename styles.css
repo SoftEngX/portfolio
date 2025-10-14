@@ -87,7 +87,7 @@ body.light {
   body.light .header {
     background: #eeeeee;
     color: #171717;
-    border: 1px solid #319795;
+    border: 1px solid #e0e0e0;
   }
   
   body.light .header a {
@@ -557,7 +557,7 @@ body.light .block::-webkit-scrollbar-thumb {
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .stack-item:hover {
