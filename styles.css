@@ -223,6 +223,9 @@ body.light .card:hover {
     border: 1px solid #319795;
     color: #3a3a3a;
   }
+  body.light .timeline-list li span {
+    color:#319795 ;
+  }
 
 .container {
    max-width: 1300px;
