@@ -937,11 +937,15 @@ textarea {
   color: #f7d27c;
 }
 
-.resume-ecucation h3 {
+.timeline {
+  margin-bottom: 30px;
+}
+
+.title-wrapper h3 {
   font-size: 24px;
 }
 
-.resume-ecucation span {
+.timeline-list li span {
   color:#f7d27c ;
 }
 
