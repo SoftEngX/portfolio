@@ -961,7 +961,8 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 190px;
+  margin-left: 700px;
+  width: 180px;
   height: 54px;
   border-radius: 15px;
   background-color: #2e2e2e;
