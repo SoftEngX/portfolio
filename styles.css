@@ -941,12 +941,40 @@ textarea {
   margin-bottom: 30px;
 }
 
+.title-wrapper {
+  margin-bottom: 30px;
+}
 .title-wrapper h3 {
   font-size: 24px;
 }
 
+.timeline-list li {
+  gap: -10px;
+}
+
 .timeline-list li span {
   color:#f7d27c ;
+}
+
+.form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 190px;
+  height: 54px;
+  border-radius: 15px;
+  background-color: #2e2e2e;
+  border: none;
+}
+
+.form-btn svg {
+  color: #f7d27c;
+}
+
+.form-btn span {
+  font-size: 16px;
+  color: #f7d27c;
 }
 
 .toggle-btn {
