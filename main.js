@@ -58,12 +58,6 @@ toggleBtn.addEventListener("click", () => {
   divider.style.display = divider.style.display === "block" ? "none" : "block";
 
 });
-
-const btn_submit = document.getElementById("btn_submit");
-
-btn_submit.addEventListener("click", function() {
-  alert("Успешно отправлено!");
-});
 // const toggleBtn = document.querySelector('.contact');
 // const socials = document.querySelector('.socials');
 // const contacts = document.querySelector('.contacts');
