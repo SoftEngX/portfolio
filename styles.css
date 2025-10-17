@@ -1015,14 +1015,15 @@ textarea {
   border-radius: 15px;
   background-color: #202022;
   border: none;
-  box-shadow: 2px 2px 5px #171717;
+  box-shadow: 5px 4px 5px #171717;
   transition: all 0.3s ease;
 }
 
 
 
 .form-btn:hover {
-  box-shadow: 2px 5px 10px #171717;
+  box-shadow: 2px 8px 10px #171717;
+  transform:translate(10px);
   /* box-shadow: inset 20px 0 0 #f7d27c; Shadow on hover */
 }
 
