@@ -944,15 +944,22 @@ textarea {
 }
 
 .timeline {
+  position: relative;
   margin-bottom: 30px;
 }
 
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
 .title-wrapper {
   margin-bottom: 30px;
 }
 .title-wrapper h3 {
   font-size: 24px;
 }
+
+.timeline-list
 
 .timeline-list li {
   gap: -10px;
