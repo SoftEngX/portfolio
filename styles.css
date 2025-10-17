@@ -946,6 +946,26 @@ textarea {
 .timeline {
   position: relative;
   margin-bottom: 30px;
+  border-left: 1px solid #f7d27c;
+}
+
+.timeline-icon {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: 0;
+  background-color: #202022;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.timeline-list h3 {
+  margin: 0;
+  font-size: 18px;
 }
 
 .timeline-item {
@@ -959,7 +979,6 @@ textarea {
   font-size: 24px;
 }
 
-.timeline-list
 
 .timeline-list li {
   gap: -10px;
