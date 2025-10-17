@@ -649,6 +649,7 @@ body.light .block::-webkit-scrollbar-thumb {
 
 form {
   display: block;
+  margin-bottom: 40px;
 }
 
 form h3 {
@@ -943,66 +944,7 @@ textarea {
   color: #f7d27c;
 }
 
-.timeline {
-  position: relative;
-  margin-bottom: 30px;
-  border-left: 1px solid #3e3e3e;
-}
 
-.timeline-icon {
-  content: '';
-  position: absolute;
-  left: -40px;
-  top: 0;
-  background-color: #202022;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  text-align: center;
-  line-height: 20px;
-  font-size: 16px;
-}
-
-.timeline-list h3 {
-  margin: 0;
-  font-size: 18px;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 30px;
-}
-.title-wrapper {
-  margin-bottom: 30px;
-}
-.title-wrapper h3 {
-  font-size: 24px;
-}
-
-
-.timeline-list li {
-  gap: -10px;
-}
-
-.timeline-icon svg {
-  color: #f7d27c;
-  width: 34px;
-}
-
-.timeline-item span {
-  color:#f7d27c ;
-}
-.timeline-text li {
-  color: #d6d6d6;
-}
-.timeline-text li::before {
-  content: "\2022";
-  color: gold;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
 
 .form-btn {
   display: flex;
