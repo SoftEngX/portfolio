@@ -958,7 +958,12 @@ textarea {
   gap: -10px;
 }
 
-.timeline-list li span {
+.timeline-icon svg {
+  color: #f7d27c;
+  width: 34px;
+}
+
+.timeline-item span {
   color:#f7d27c ;
 }
 .timeline-text li {
