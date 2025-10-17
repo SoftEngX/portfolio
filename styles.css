@@ -1081,6 +1081,32 @@ button,
 }
 
 
+@media (min-width: 1250px) {
+  .active-status {
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      background-color: #39ff14;
+      animation: 1.5s pulse infinite ease-in-out;
+      position: absolute;
+      top: 160px;
+      left: 200px;
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 @media (max-width: 1280px) {
   .container {
