@@ -233,7 +233,7 @@ body.light .card:hover {
 
 .container {
    max-width: 1300px;
-   margin: 0 auto;
+   margin: 0 auto 50px;
    width: 100%;
 }
 
@@ -946,7 +946,7 @@ textarea {
 
 .timeline-section {
   position: relative;
-  margin: 40px 0;
+  margin: 60px 0 40px;
   padding-left: 40px;
   border-left: 1px solid #3a3a3a;
 }
@@ -967,8 +967,8 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0px 0px 5px #333,
-  2px 2px 8px #2e2e2e;
+  box-shadow: inset 0px 0px 2px #333,
+  1px 1px 3px #2e2e2e;
 }
 
 .timeline-marker .icon {
@@ -977,10 +977,17 @@ textarea {
   height: 16px;
 }
 
-.timeline-content h3 {
-  margin: 0 0 5px;
+.timeline-content {
+  display: block;
+}
+
+
+
+.timeline-wrapper h3 {
+  margin: 0 0 20px;
   font-size: 24px;
   color: #f5f5f5;
+  
 }
 
 .timeline-content h4 {
@@ -997,15 +1004,45 @@ textarea {
 }
 
 .timeline-content ul {
+  position: relative;
   margin: 8px 0 0;
   padding-left: 20px;
   color: #d6d6d6;
   font-size: 14px;
+  list-style-type: disc;
 }
 
-.form-btn {
+/* .timeline-content ul li::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background-color: #f7d27c;
+  border-radius: 50%;
   
+} */
+ .cv-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+ }
+
+.form-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: #202022;
+  color: #f7d27c;
+  text-decoration: none;
+  border-radius: 6px;
 }
+
+/* .form-btn svg {
+  stroke: #f7d27c;
+} */
 
 
 
