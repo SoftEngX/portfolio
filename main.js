@@ -32,10 +32,10 @@ toggle.addEventListener('click', () => {
 
 function openModal() {
   const modal = document.getElementById("modal");
-  modal.style.display = "flex"; // нужно, чтобы элемент появился
+  modal.style.display = "flex";
   setTimeout(() => {
-    modal.classList.add("show"); // запускает анимацию
-  }, 10); // небольшая задержка, чтобы transition сработал
+    modal.classList.add("show");
+  }, 10); 
 }
 
 function closeModal() {
@@ -43,7 +43,7 @@ function closeModal() {
   modal.classList.remove("show"); // запускает исчезновение
   setTimeout(() => {
     modal.style.display = "none"; // скрывает после анимации
-  }, 300); // совпадает с transition: 0.3s
+  }, 300); 
 };
 
 
