@@ -257,9 +257,18 @@ body.light .card:hover {
   body.light .timeline-marker .icon {
     stroke: #fff;
   }
+  body.light .form-btn {
+    background-color: #319795;
+    color: #f2f0f0;
+    transition: all 0.3s ease;
+  }
+  body.light .form-btn:hover {
+    opacity: 0.8;
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px; 
+  }
   body.light .toggle-btn {
     background-color: #319795;
-    color: #fff;
+    color: #ececec;
   }
 
 .container {
@@ -977,7 +986,7 @@ textarea {
 
 .timeline-section {
   position: relative;
-  margin: 60px 0 40px;
+  margin: 60px 0 0 0;
   padding-left: 40px;
   border-left: 1px solid #3a3a3a;
 }
