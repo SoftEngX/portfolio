@@ -1267,6 +1267,10 @@ button,
   .sidebar-info-top h2 {
     font-size: 16px;
   }
+  .form-btn {
+    width: 100%;
+    align-items: center;
+  }
 }
 
 @media (max-width: 600px) {
