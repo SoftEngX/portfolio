@@ -46,7 +46,7 @@ body.light {
     border: none;
   }
   body.light .avatar_img {
-    border: 1px solid #555;
+    border: 1px solid #929191;
   }
   
   body.light .contact-item .icon {
@@ -1022,9 +1022,9 @@ textarea {
   height: 16px;
 }
 
-.timeline-content {
-  /* display: block; */
-}
+/* .timeline-content {
+  display: block;
+} */
 
 .timeline-info span {
   color: #f7d27c;
