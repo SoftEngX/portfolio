@@ -190,6 +190,10 @@ body.light .card:hover {
   body.light .circle-percent {
     color: #319795;
   }
+  body.light .skill-grid {
+    border-left: 1px solid #319795;
+    border-right: 1px solid #319795;
+  }
   body.light .skill-knowledge ul li .flex__it svg {
     color: #319795;
   }
