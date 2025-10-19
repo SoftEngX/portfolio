@@ -532,7 +532,7 @@ body.light .block::-webkit-scrollbar-thumb {
 
 #about p {
     line-height: 1.6;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     color: #d6d6d6;
     font-size: 16px;
     font-weight: 400;
@@ -1021,26 +1021,19 @@ textarea {
   display: block;
 }
 
-
-
 .timeline-wrapper h3 {
   margin: 0 0 20px;
   font-size: 24px;
   color: #f5f5f5;
-  
+}
+.timeline-info p {
+  color: #f7d27c;
 }
 
 .timeline-content h4 {
   margin: 5px 0;
   font-size: 16px;
   color: #f5f5f5;
-}
-
-.timeline-content p,
-.timeline-content span {
-  margin: 4px 0;
-  font-size: 14px;
-  color: #f7d27c;
 }
 
 .timeline-content ul {
