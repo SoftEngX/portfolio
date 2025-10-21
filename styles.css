@@ -1205,8 +1205,9 @@ button,
 
 @media (max-width: 1024px) {
 
-  .sidebar-info-top img {
+  .sidebar-info-top .avatar {
     width: 100px;
+    height: auto;
   }
   .header {
     position: fixed;
@@ -1279,8 +1280,9 @@ button,
 }
 
 @media (max-width: 720px) {
-  .sidebar-info-top img {
-    width: 70px;
+  .sidebar-info-top .avatar {
+    width: 80px;
+    height: auto;
   }
   .sidebar-info-top h2 {
     font-size: 16px;
@@ -1355,5 +1357,24 @@ button,
   }
   .circle-percent {
     font-size: 1.5em;
+  }
+  .toggle-btn {
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    right: 10px;
+  }
+  .full-name p {
+    font-size: 12px;
+  }
+  .contacts.active {
+    gap: 0;
+  }
+  .socials.active {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    height: auto;
   }
 }
