@@ -276,6 +276,9 @@ body.light .card:hover {
     background-color: #319795;
     color: #ececec;
   }
+  body.light .toggle-btn:hover {
+    box-shadow: inset 0 10px 20px #39d0c8;
+  }
 
 .container {
    max-width: 1300px;
@@ -1106,7 +1109,9 @@ textarea {
   background-color: #202022;
   border-radius: 0 20px 0 20px;
   border: none;
-  box-shadow: inset 0 16px 30px #252525;
+}
+.toggle-btn:hover {
+  box-shadow: inset 0 2px 5px #ddc53a;
 }
 
 body, 
@@ -1325,6 +1330,9 @@ button,
   }
   .theme-toggle span {
     font-size: 15px;
+  }
+  .toggle-btn {
+    right: 10px;
   }
 }
 
