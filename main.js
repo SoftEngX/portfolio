@@ -3,6 +3,7 @@ const body = document.body;
 const sunIcon = document.querySelector('.sun-icon');
 const moonIcon = document.querySelector('.moon-icon');
 const avatar = document.querySelector('.avatar');
+// const modal = document.querySelector('.modal');
 
 // Проверяем сохранённую тему
 const savedTheme = localStorage.getItem('theme');
