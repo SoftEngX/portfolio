@@ -306,7 +306,7 @@ body.light .card:hover {
 
 .avatar {
     width: 150px;
-    height: auto;
+    height: 165px;
     cursor: pointer;
     border-radius: 50%;
     /* border: none; */
