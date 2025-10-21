@@ -47,27 +47,23 @@ function closeModal() {
 };
 
 
-const toggleBtn = document.getElementById("toggleContacts");
+const toggleBtn = document.getElementById("toggle-btn");
 const contacts = document.getElementById("contacts");
 const socials = document.getElementById("socials");
 const divider = document.getElementById("divider");
 
-toggleBtn.addEventListener("click", () => {
-  contacts.style.display = contacts.style.display === "block" ? "none" : "block";
-  socials.style.display = socials.style.display === "block" ? "none" : "block";
-  divider.style.display = divider.style.display === "block" ? "none" : "block";
-
+toggleBtn.addEventListener('click', () => {
+  socials.classList.toggle('active');
+  contacts.classList.toggle('active');
+  divider.classList.toggle('active');
 });
+
+// toggleBtn.addEventListener("click", () => {
+//   contacts.style.display = contacts.style.display === "block" ? "none" : "block";
+//   socials.style.display = socials.style.display === "block" ? "none" : "block";
+//   divider.style.display = divider.style.display === "block" ? "none" : "block";
+
+// });
 // const toggleBtn = document.querySelector('.contact');
 // const socials = document.querySelector('.socials');
 // const contacts = document.querySelector('.contacts');
-
-// toggleBtn.addEventListener('click', () => {
-//   socials.classList.toggle('active');
-//   contacts.classList.toggle('active');
-// });
-
-
-
-
-

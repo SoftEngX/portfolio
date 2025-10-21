@@ -307,7 +307,8 @@ body.light .card:hover {
     width: 150px;
     height: auto;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 20%;
+    /* border: none; */
     transition: transform 0.3s ease;
 }
 
@@ -1158,15 +1159,26 @@ button,
     flex-direction: row;
     gap: 30px;
   }
+
+  .toggle-btn {
+    display: block;
+  }
+
   .divider,
   .contacts,
   .socials {
     display: none;
   }
-  .toggle-btn {
-    display: block;
+  .divider.active {
+    display: flex;
   }
-
+  .contacts.active {
+    display: flex;
+  }
+  .socials.active {
+    display: flex;
+  }
+ 
   .main-content {
     margin-left: 0;
     width: 80%;       
