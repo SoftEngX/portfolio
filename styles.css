@@ -45,8 +45,9 @@ body.light {
     color: #fff;
     border: none;
   }
-  body.light .avatar_img {
-    border: 1px solid #929191;
+  body.light .avatar {
+    border-radius: 50%;
+    border: 1px solid #a8a8a8;
   }
   
   body.light .contact-item .icon {
@@ -303,11 +304,11 @@ body.light .card:hover {
     gap: 0px;
 }
 
-.avatar_img {
+.avatar {
     width: 150px;
     height: auto;
     cursor: pointer;
-    border-radius: 20%;
+    border-radius: 50%;
     /* border: none; */
     transition: transform 0.3s ease;
 }

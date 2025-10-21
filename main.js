@@ -30,6 +30,12 @@ toggle.addEventListener('click', () => {
   }
 });
 
+if (body.classList.contains('light')) {
+  avatar.src = 'img/avatar-light.png';
+} else {
+  avatar.src = 'img/avatar-dark.png';
+};
+
 function openModal() {
   const modal = document.getElementById("modal");
   modal.style.display = "flex";
