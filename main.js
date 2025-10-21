@@ -2,6 +2,7 @@ const toggle = document.getElementById('themeToggle');
 const body = document.body;
 const sunIcon = document.querySelector('.sun-icon');
 const moonIcon = document.querySelector('.moon-icon');
+const avatar = document.querySelector('.avatar');
 
 // Проверяем сохранённую тему
 const savedTheme = localStorage.getItem('theme');
@@ -9,10 +10,12 @@ if (savedTheme === 'light') {
   body.classList.add('light');
   sunIcon.style.display = 'none';
   moonIcon.style.display = 'inline';
+  avatar.src = 'img/avatar-light.png';
 } else {
   body.classList.add('dark');
   sunIcon.style.display = 'inline';
   moonIcon.style.display = 'none';
+  avatar.src = 'img/avatar-dark.png';
 }
 
 // Переключаем тему при клике
@@ -22,19 +25,15 @@ toggle.addEventListener('click', () => {
     localStorage.setItem('theme', 'light');
     sunIcon.style.display = 'none';
     moonIcon.style.display = 'inline';
+    avatar.src = 'img/avatar-light.png'; // ⬅️ добавлено сюда
   } else {
     body.classList.replace('light', 'dark');
     localStorage.setItem('theme', 'dark');
     sunIcon.style.display = 'inline';
     moonIcon.style.display = 'none';
+    avatar.src = 'img/avatar-dark.png'; // ⬅️ и сюда
   }
 });
-
-if (body.classList.contains('light')) {
-  avatar.src = 'img/avatar-light.png';
-} else {
-  avatar.src = 'img/avatar-dark.png';
-};
 
 function openModal() {
   const modal = document.getElementById("modal");
