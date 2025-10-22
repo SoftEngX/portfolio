@@ -619,19 +619,18 @@ body.light .block::-webkit-scrollbar-thumb {
   height: 150px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
   margin: 40px 0;
 }
 
-.stack-item:hover {
-  transform: scale(1.1);
-}
+
 
 .stack-item img {
-  width: 250px;
-  padding: 10px;
+  width: 100px;
+  /* padding: 10px; */
 }
 .stack-scroll::-webkit-scrollbar {
   height: 8px; /* высота скролла */
