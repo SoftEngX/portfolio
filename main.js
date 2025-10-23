@@ -64,22 +64,6 @@ toggleBtn.addEventListener('click', () => {
   divider.classList.toggle('active');
 });
 
-  document.addEventListener("DOMContentLoaded", () => {
-    document.body.classList.add("fade-in");
-
-    document.querySelectorAll("a").forEach((link) => {
-      const href = link.getAttribute("href");
-      if (href && href.endsWith(".html")) {
-        link.addEventListener("click", function (e) {
-          e.preventDefault();
-          document.body.classList.add("fade-out");
-          setTimeout(() => {
-            window.location.href = href;
-          }, 500); // совпадает с длительностью fadeOut
-        });
-      }
-    });
-  });
 // toggleBtn.addEventListener("click", () => {
 //   contacts.style.display = contacts.style.display === "block" ? "none" : "block";
 //   socials.style.display = socials.style.display === "block" ? "none" : "block";
