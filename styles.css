@@ -1089,9 +1089,29 @@ textarea {
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
 
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
 
+/* Плавное появление */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 .toggle-btn {
   display: none;
