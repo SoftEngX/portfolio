@@ -608,7 +608,6 @@ body.light .block::-webkit-scrollbar-thumb {
   display: flex;
   overflow-x: scroll;
   scrollbar-width: auto;
-  gap: 20px;
   -webkit-overflow-scrolling: touch;
   white-space: nowrap;
 }
@@ -1280,6 +1279,10 @@ button,
   .sidebar-info-top h2 {
     font-size: 20px;
   }
+  .input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 }
 
@@ -1313,6 +1316,14 @@ button,
   }
   .header li a {
     font-size: 12px;
+  }
+  .card {
+    height: auto;
+  }
+  .btn_submit {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }
 
