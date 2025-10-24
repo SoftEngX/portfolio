@@ -64,6 +64,33 @@ toggleBtn.addEventListener('click', () => {
   divider.classList.toggle('active');
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("main section");
+  const navLinks = document.querySelectorAll(".navbar a");
+
+  function showSection(id) {
+    sections.forEach((section) => {
+      section.classList.remove("active");
+    });
+    const target = document.querySelector(id);
+    if (target) {
+      target.classList.add("active");
+    }
+  }
+
+  // Показать первую секцию по умолчанию
+  showSection("#about");
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute("href");
+      showSection(targetId);
+    });
+  });
+});
+
+
 // toggleBtn.addEventListener("click", () => {
 //   contacts.style.display = contacts.style.display === "block" ? "none" : "block";
 //   socials.style.display = socials.style.display === "block" ? "none" : "block";
