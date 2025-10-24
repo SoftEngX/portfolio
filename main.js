@@ -79,17 +79,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Показать первую секцию по умолчанию
- function showSection(id) {
-  const sections = document.querySelectorAll('.section');
-  sections.forEach(section => {
-    section.classList.remove('active');
-  });
+  showSection("#about");
 
-  const target = document.getElementById(id);
-  if (target) {
-    target.classList.add('active');
-  }
-}
+  navLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute("href");
+      showSection(targetId);
+    });
+  });
+});
 
 
 // toggleBtn.addEventListener("click", () => {
