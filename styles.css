@@ -108,7 +108,7 @@ body.light {
     color: #319795;
   }
 
-  body.light #about h2::before {
+  body.light #about h1::before {
     background-color: #319795;
   }
 
@@ -503,6 +503,12 @@ body.light .block::-webkit-scrollbar-thumb {
     color: #f7d27c;;
 }
 
+nav a.active {
+  color: #f7d27c;
+  font-weight: bold;
+}
+
+
 .theme-toggle {
     position: fixed;
     /* top: 65px;
@@ -544,7 +550,7 @@ body.light .block::-webkit-scrollbar-thumb {
     margin-top: 30px;
 }
 
-#about h2,
+#about h1,
 #resume h2,
 #portfolio h2,
 #skills h2,
@@ -555,7 +561,7 @@ body.light .block::-webkit-scrollbar-thumb {
     font-weight: 600;
 }
 
-#about h2::before {
+#about h1::before {
     content: "";
     position: absolute;
     bottom: -20px;

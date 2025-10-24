@@ -27,6 +27,17 @@ Other technologies I work with:
 - Vue.js
 - Figma
 
+## 📸 Screenshots
+
+### 🧑‍💻 About Section
+![About Screenshot](screenshots/about.png)
+
+### 🧑‍💻 About light Section
+![About Screenshot](screenshots/about.light.png)
+
+### 🧑‍💻 Mobile View
+![About Screenshot](screenshots/mobile.png)
+
 ## 👨‍💻 Author
 
 **Bekbolsun Akimov**  
