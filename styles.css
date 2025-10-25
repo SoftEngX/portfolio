@@ -1383,6 +1383,9 @@ button,
     display: flex;
     flex-wrap: wrap;
   }
+  .portfolio-grid {
+    justify-content: center;
+  }
 
 }
 
