@@ -305,18 +305,14 @@ body.light .card:hover {
    width: 100%;
 }
 
-
 .sidebar {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    width: 300px;
-    background: #1c1c1c;
-    padding: 30px;
-    position: fixed;
-    border: 1px solid rgb(53, 53, 53);
-    border-radius: 20px;
-    transition: background 0.3s, color 0.3s;
+  width: 300px;
+  background: #1c1c1c;
+  padding: 30px;
+  position: fixed;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 20px;
+  transition: background 0.3s, color 0.3s;
   }
 
 .sidebar-info-top {
@@ -392,7 +388,6 @@ body.light .card:hover {
     margin: 20px 0;
 }
 
-
 .contact-item .icon {
     display: flex;
     justify-content: center;
@@ -443,6 +438,7 @@ body.light .card:hover {
     filter: invert(40%);
     cursor: pointer;
 }
+
 .socials a img:hover {
     filter: invert(1%);
 }
@@ -450,7 +446,6 @@ body.light .card:hover {
 body.light .block::-webkit-scrollbar-thumb {
     background:#319795; 
 }
-
 
 .main-content {
   position: relative;
@@ -508,14 +503,10 @@ nav a.active {
   font-weight: bold;
 }
 
-
 .theme-toggle {
     position: fixed;
-    /* top: 65px;
-    right: 90px; */
     margin-left: 40px;
-    /* top: 50px;
-    right: 140px; */
+
     cursor: pointer;
     border: none;
     padding: 5px 10px;
@@ -523,12 +514,7 @@ nav a.active {
     background-color: #f7d27c;
     transition: background 0.3s, color 0.3s;
     transition: all 0.3s ease;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* margin: 0px; */
 }
-
 
 .theme-toggle:hover {
     opacity: 0.8;
@@ -541,7 +527,6 @@ nav a.active {
 .moon-icon {
   display: none;
 }
-
 
 #about,
 #resume,
@@ -571,7 +556,6 @@ nav a.active {
     height: 4px;
     background-color: #f7d27c;
     border-radius: 2px;
-    /* margin-bottom: 20px; */
 }
 #resume h2::before {
     content: "";
@@ -582,8 +566,8 @@ nav a.active {
     height: 4px;
     background-color: #f7d27c;
     border-radius: 2px;
-    /* margin-bottom: 20px; */
 }
+
 #portfolio h2::before {
     content: "";
     position: absolute;
@@ -593,8 +577,8 @@ nav a.active {
     height: 4px;
     background-color: #f7d27c;
     border-radius: 2px;
-    /* margin-bottom: 20px; */
 }
+
 #skills h2::before {
     content: "";
     position: absolute;
@@ -604,7 +588,6 @@ nav a.active {
     height: 4px;
     background-color: #f7d27c;
     border-radius: 2px;
-    /* margin-bottom: 20px; */
 }
 #contact h2::before {
     content: "";
@@ -615,12 +598,10 @@ nav a.active {
     height: 4px;
     background-color: #f7d27c;
     border-radius: 2px;
-    /* margin-bottom: 20px; */
 }
 
 #about p {
     line-height: 1.6;
-    /* margin-bottom: 20px; */
     color: #d6d6d6;
     font-size: 16px;
     font-weight: 400;
@@ -628,7 +609,6 @@ nav a.active {
 
 .doing {
     margin-top: 50px;
-    /* position: relative; */
 }
 
 .doing h2 {
@@ -652,7 +632,6 @@ nav a.active {
     padding: 20px 15px;
     gap: 15px;
     border-radius: 15px;
-    /* position: absolute; */
     background-color: #202022;
     box-shadow: 0px 0px 20px rgb(22, 22, 22);
     transition: background 0.3s, color 0.3s;
@@ -676,7 +655,6 @@ nav a.active {
     color: #d6d6d6;
     line-height: 21px;
 }
-
 
 .stack {
     margin-top: 80px;
@@ -703,14 +681,11 @@ nav a.active {
   margin: 40px 0;
 }
 
-
-
 .stack-item img {
   width: 100px;
-  /* padding: 10px; */
 }
 .stack-scroll::-webkit-scrollbar {
-  height: 8px; /* высота скролла */
+  height: 8px;
 }
 
 .stack-scroll::-webkit-scrollbar-thumb {
@@ -721,9 +696,6 @@ nav a.active {
 .stack-scroll::-webkit-scrollbar-track {
   background-color: #4e4e4e;
 }
-
-
-
 
 .portfolio-grid {
     margin-top: 70px;
