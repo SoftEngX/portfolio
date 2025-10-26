@@ -729,17 +729,6 @@ nav a.active {
     font-size: 16px;
 }
 
-/* .contact {
-  display: none;
-  margin-top: 15px;
-  padding: 8px 12px;
-  background: #444;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-} */
-
 .google-maps {
   width: 100%;
   border-radius: 20px;
@@ -794,7 +783,6 @@ form h3 {
   border-radius: 12px;
 }
 
-
 input,
 textarea {
   font: 1em 'Poppins', sans-serif;
@@ -803,9 +791,7 @@ textarea {
   background: transparent;
   border: 0.5px solid rgb(68, 68, 68);
   color: #ccc;
-  /* font: inherit; */
 }
-
 
 .message {
   height: 7em;
@@ -847,7 +833,6 @@ textarea {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-
 .skills-title {
   font-size: 2rem;
   font-weight: 700;
@@ -863,17 +848,12 @@ textarea {
   padding-left: 20px;
   border-right: 1px solid #4e4e4e;
   padding-right: 20px;
-  /* align-items: center; */
-  /* margin-top: 100px; */
 }
 
 .skill-box {
   background: transparent;
   padding-left: 25px;
 }
-
-
-
 
 .design__icon-title {
   display: flex;
@@ -900,9 +880,6 @@ textarea {
   overflow: hidden;
   border-radius: 4px;
   margin-top: 8px;
-  /* border-left: 0.3px solid rgb(225, 200, 136);
-  border-bottom: 0.3px solid rgb(225, 200, 136);
-  padding: 20px; */
 }
 
 .skill-progress {
@@ -911,11 +888,8 @@ textarea {
   border-radius: 4px;
 }
 
-
-
 .language {
   display: block;
-  /* align-items: center; */
 }
 
 .language__icon-title {
@@ -978,7 +952,6 @@ textarea {
 .circle-skill svg {
   width: 100%;
   height: 100%;
-  /* transform: rotate(-90deg); */
 }
 
 .circle-bg {
@@ -991,7 +964,6 @@ textarea {
   fill: none;
   stroke: #f7d27c;
   stroke-width: 3;
-  /* stroke-linecap: round; */
   transition: stroke-dasharray 1s ease;
 }
 
@@ -1075,10 +1047,6 @@ textarea {
   height: 16px;
 }
 
-/* .timeline-content {
-  display: block;
-} */
-
 .timeline-info span {
   color: #f7d27c;
 }
@@ -1104,16 +1072,6 @@ textarea {
   list-style-type: disc;
 }
 
-/* .timeline-content ul li::before {
-  position: absolute;
-  content: '';
-  left: 0;
-  width: 5px;
-  height: 5px;
-  background-color: #f7d27c;
-  border-radius: 50%;
-  
-} */
  .cv-button-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -1142,7 +1100,6 @@ textarea {
 
 .toggle-btn {
   display: none;
-  /* padding: 15px 14px; */
   position: absolute;
   top: 51px;
   right: 132px;;
@@ -1155,6 +1112,7 @@ textarea {
   border-radius: 0 20px 0 20px;
   border: none;
 }
+
 .toggle-btn:hover {
   box-shadow: inset 0 2px 5px #ddc53a;
 }
@@ -1196,7 +1154,6 @@ button,
     box-shadow 0.5s ease;
 }
 
-
 @media (min-width: 1250px) {
   .active-status {
       height: 12px;
@@ -1227,7 +1184,6 @@ button,
     width: 80%;              /* на всю ширину */
     margin-bottom: 20px;      /* отступ вниз */
   }
-
 
   .sidebar-info-top {
     display: flex;
@@ -1262,8 +1218,6 @@ button,
     margin-left: 0;
     width: 80%;       
   }
-
-
 }
 
 @media (max-width: 1150px) {
@@ -1274,7 +1228,6 @@ button,
   .card-content {
     width: 100%;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -1289,8 +1242,6 @@ button,
     bottom: 0;
     right: 0;
     left: 0;
-    /* width: 100%; */
-    /* height: auto; */
     justify-content: center;
     border-radius: 20px 20px 0 0;
     background: transparent;
@@ -1302,33 +1253,38 @@ button,
     gap: 0;
     height: 150px;
   }
+
   .card-icon img {
     width: 30px;
     height: 30px;
   }
+
   .card-content h3 {
     font-size: 14px;
   }
+
   .design__icon-title svg {
     font-size: 1.5em;
-    /* width: 250px; */
   }
+
   .language-name {
     font-size: 15px;
   }
+
   .language-dots span {
     width: 12px;
     height: 12px;
     margin: 10px 0 20px 0;
   }
+
   .circle-skill {
     width: 100px;
     height: 100px;
   }
+
   .circle-percent {
     font-size: 1em;
   }
-
 }
 
 @media (max-width: 900px) {
@@ -1336,12 +1292,13 @@ button,
   #about h2 {
     font-size: 24px;
   }
+
   .skill-grid {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* flex-wrap: wrap; */
   }
+
   .skill-box {
     width: 100%;
   }
@@ -1351,14 +1308,15 @@ button,
   .sidebar-info-top h2 {
     font-size: 20px;
   }
+
   .input-wrapper {
     display: flex;
     flex-wrap: wrap;
   }
+
   .portfolio-grid {
     justify-content: center;
   }
-
 }
 
 @media (max-width: 720px) {
@@ -1366,14 +1324,17 @@ button,
     width: 80px;
     height: auto;
   }
+
   .sidebar-info-top h2 {
     font-size: 16px;
   }
+
   .form-btn {
     width: 100%;
     justify-content: center;
     align-items: center;
   }
+
   .card {
     height: auto;
   }
@@ -1386,27 +1347,23 @@ button,
   .main-content {
     width: 100%;
   }
-  /* .header {
-    height: auto;
-  } */
+
   #about h2 {
     font-size: 19px;
   }
   .header li a {
     font-size: 12px;
   }
+
   .card {
     height: auto;
   }
+
   .btn_submit {
     width: 100%;
     justify-content: center;
     align-items: center;
   }
-  /* .google-maps {
-    width: 100%;
-    height: auto;
-  } */
 }
 
 @media (max-width: 480px) {
@@ -1433,6 +1390,7 @@ button,
   .header ul {
     gap: 15px;
   }
+
   .header li a {
     font-size: 11px;
   }
@@ -1442,39 +1400,49 @@ button,
   .header ul {
     gap: 12px;
   }
+
   .header li a {
     font-size: 10px;
   }
+
   .theme-toggle {
     padding: 4px 8px ;
     margin-left: 20px;
   }
+
   .theme-toggle span {
     font-size: 12px;
   }
+
   .circle-skill {
     width: 150px;
     height: 150px;
   }
+
   .circle-percent {
     font-size: 1.5em;
   }
+
   .toggle-btn {
     width: 110px;
     height: 30px;
     font-size: 12px;
     right: 10px;
   }
+
   .full-name p {
     font-size: 12px;
   }
+
   .contacts.active {
     gap: 0;
   }
+
   .socials.active {
     display: flex;
     justify-content: space-around;
   }
+  
   .card {
     height: auto;
   }
