@@ -619,7 +619,8 @@ nav a.active {
 
 .full-card {
     display: flex;
-    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 25px;
     margin-top: 40px;
     flex-wrap: wrap;
@@ -628,7 +629,9 @@ nav a.active {
 
 .card {
     display: flex;
-    width: 400px;
+    /* grid-template-columns: 1fr 1fr; */
+    width: 430px;
+    /* height: auto; */
     padding: 20px 15px;
     gap: 15px;
     border-radius: 15px;
@@ -643,7 +646,7 @@ nav a.active {
 }
 
 .card-content {
-    width: 300px;
+    /* width: 300px; */
 }
 .card-content h3 {
     font-size: 18px;
@@ -1154,6 +1157,19 @@ button,
     box-shadow 0.5s ease;
 }
 
+@media (max-width: 1310px) {
+  .card {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-content {
+    text-align: center;
+  
+}
+}
+
 @media (min-width: 1250px) {
   .active-status {
       height: 12px;
@@ -1260,7 +1276,7 @@ button,
   }
 
   .card-content h3 {
-    font-size: 14px;
+    /* font-size: 14px; */
   }
 
   .design__icon-title svg {
@@ -1292,7 +1308,9 @@ button,
   #about h2 {
     font-size: 24px;
   }
-
+  .card {
+    height: auto;
+  }
   .skill-grid {
     display: flex;
     flex-direction: column;
@@ -1302,11 +1320,21 @@ button,
   .skill-box {
     width: 100%;
   }
+  .contacts.active {
+    gap: 10px 20px;
+  }
 }
 
 @media (max-width: 770px) {
   .sidebar-info-top h2 {
     font-size: 20px;
+  }
+
+  .card-content h3 {
+    font-size: 14px;
+  }
+  .card-content p {
+    font-size: 13px;
   }
 
   .input-wrapper {
