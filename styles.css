@@ -1118,10 +1118,15 @@ textarea {
   background-color: #202022;
   border-radius: 0 20px 0 20px;
   border: none;
+  transition: all 0.3s ease;
 }
 
 .toggle-btn:hover {
-  box-shadow: inset 0 2px 5px #ddc53a;
+  /* opacity: 0.8; */
+  box-shadow:  0 2px 5px #7f7f7f;
+}
+.toggle-btn:active {
+  opacity: 0.6;
 }
 
 .section {
@@ -1202,6 +1207,7 @@ button,
   .sidebar {
     position: relative;         
     width: 80%;
+    padding: 20px 20px 0 20px;
     /* max-height: 250px; */
     margin-bottom: 20px;      /* отступ вниз */
   }
@@ -1246,6 +1252,7 @@ button,
     display: flex;
     justify-content: flex-start;
     gap: 20px;
+    margin-bottom: 20px;
   }
 
    .divider.active {
