@@ -51,7 +51,6 @@ function closeModal() {
   }, 300);
 }
 
-// 📱 Переключение контактов/соцсетей
 const toggleBtn = document.getElementById("toggle-btn");
 const contacts = document.getElementById("contacts");
 const socials = document.getElementById("socials");
@@ -62,6 +61,7 @@ toggleBtn.addEventListener("click", () => {
   contacts.classList.toggle("active");
   divider.classList.toggle("active");
 });
+
 
 // 🧭 SPA-навигация + активная ссылка
 document.addEventListener("DOMContentLoaded", () => {
@@ -104,3 +104,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
