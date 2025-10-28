@@ -105,4 +105,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+      const btnSubmit = document.getElementById("btn_submit");
+
+btnSubmit.addEventListener("click", () => {
+  alert("Форма отправлена!");
+});
+
 

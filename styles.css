@@ -649,9 +649,6 @@ nav a.active {
     height: 35px;
 }
 
-.card-content {
-    /* width: 300px; */
-}
 .card-content h3 {
     font-size: 18px;
     color: #fafafa;
@@ -1302,10 +1299,6 @@ button,
   .card-icon img {
     width: 30px;
     height: 30px;
-  }
-
-  .card-content h3 {
-    /* font-size: 14px; */
   }
 
   .design__icon-title svg {
