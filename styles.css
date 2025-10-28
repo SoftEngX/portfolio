@@ -218,7 +218,7 @@ body.light .card:hover {
     color: #319795;
   }
   body.light .input-wrapper input {
-    border: 1px solid #319795;
+    border: 1px solid #7a9b9b;
   }
   body.light .input-wrapper input:hover {
     border: 1px solid #319795;
@@ -231,7 +231,7 @@ body.light .card:hover {
     outline: none;
   }
   body.light .input-subject {
-    border: 1px solid #319795;
+    border: 1px solid #7a9b9b;
   }
   body.light .input-subject:hover {
     border: 1px solid #319795;
@@ -241,7 +241,7 @@ body.light .card:hover {
     color: #3a3a3a;
   }
   body.light .message {
-    border: 1px solid #319795;
+    border: 1px solid #7a9b9b;
   }
   body.light .message:hover {
     border: 1px solid #319795;
