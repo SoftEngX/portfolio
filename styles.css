@@ -1270,13 +1270,16 @@ button,
   }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1155px) {
   .card {
     width: 100%;
     flex-direction: column;
   }
   .card-content {
     width: 100%;
+  }
+  .portfolio-card {
+    width: 20rem;
   }
 }
 
@@ -1331,6 +1334,9 @@ button,
   .circle-percent {
     font-size: 1em;
   }
+  .portfolio-card {
+    width: 18rem;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1352,6 +1358,9 @@ button,
   }
   .contacts.active {
     gap: 10px 20px;
+  }
+  .portfolio-card {
+    width: 90%;
   }
 }
 
