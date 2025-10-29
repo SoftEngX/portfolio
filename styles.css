@@ -705,20 +705,21 @@ nav a.active {
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
 }
 
 .portfolio-card {
     text-align: center;
     text-decoration: none;
     color: white;
-    flex: 1 1 250px;
-    max-width: 270px;
+    /* flex: 1fr 1fr; */
+    width: 25rem;
 }
 
 .portfolio-card img {
     width: 100%;
-    height: 170px;
+    /* max-height: 170px; */
     border-radius: 25px;
     transition: all 0.5s ease;
 }
