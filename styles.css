@@ -729,9 +729,14 @@ nav a.active {
     border-radius: 10px;
 }
 
+.portfolio-card h4 {
+  font-size: 19px;
+  font-weight: 500;
+}
+
 .portfolio-card p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .google-maps {
