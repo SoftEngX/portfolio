@@ -127,6 +127,9 @@ body.light {
   body.light #contact h2::before {
     background-color: #319795;
   }
+  body.light .portfolio-card h4 {
+    color: #171717;
+  }
   body.light .card {
     background: #f6f6f6;
     color: #171717;
