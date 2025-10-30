@@ -1445,8 +1445,11 @@ button,
   #about h2 {
     font-size: 19px;
   }
+  .header ul {
+    gap: 35px;
+  }
   .header li a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .card {
@@ -1467,24 +1470,31 @@ button,
   .portfolio-card p {
     margin: 0 0;
   }
+  .theme-toggle {
+    right: 25px;
+    padding: 4px 11px;
+  }
 }
 
 @media (max-width: 480px) {
+  .navbar {
+    margin: 0 0 0 40px;
+  }
   .header ul {
     gap: 20px;
   }
   .header li a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .theme-toggle {
-    margin-left: 0px;
+    right: 20px;
     padding: 6px 12px;
   }
   .theme-toggle span {
     font-size: 15px;
   }
   .portfolio-grid {
-    gap: 10px;
+    gap: 25px;
   }
   .portfolio-card {
     width: 100%;
@@ -1495,19 +1505,31 @@ button,
   .portfolio-card h4 {
     margin: 7px 0;
   }
+  
 }
 
 @media (max-width: 415px) {
  
-  .header ul {
+  .sidebar-info-top {
     gap: 15px;
   }
-
+  .full-name p {
+    font-size: 12px;
+  }
+  .navbar {
+    margin: 0 0 0 40px;
+  }
+  /* .navbar ul {
+    gap: 20px;
+  } */
   .header li a {
-    font-size: 11px;
+    font-size: 12px;
+  }
+  .contact-item {
+    margin: 10px 0;
   }
   .portfolio-grid {
-    gap: 0;
+    gap: 15px;
   }
   .portfolio-card {
     width: 100%;
@@ -1515,15 +1537,19 @@ button,
   .portfolio-card h4 {
     margin: 7px 0;
   }
+  .theme-toggle {
+    padding: 5px 10px ;
+    right: 20px
+  }
 }
 
 @media (max-width: 375px) {
   .header ul {
-    gap: 12px;
+    gap: 20px;
   }
 
   .header li a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .theme-toggle {
@@ -1565,5 +1591,9 @@ button,
 
   .card {
     height: auto;
+  }
+  .theme-toggle {
+    padding: 5px 10px ;
+    right: 20px
   }
 }
