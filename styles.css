@@ -1334,8 +1334,18 @@ button,
   .circle-percent {
     font-size: 1em;
   }
+  .portfolio-grid {
+    gap: 15px 30px;
+  }
   .portfolio-card {
     width: 18rem;
+  }
+  .portfolio-card h4 {
+    margin: 9px 0;
+    font-size: 17px;
+  }
+  .portfolio-card p {
+    font-size: 14px;
   }
 }
 
@@ -1359,8 +1369,18 @@ button,
   .contacts.active {
     gap: 10px 20px;
   }
+  .portfolio-grid {
+    gap: 30px;
+  }
   .portfolio-card {
-    width: 90%;
+    width: 70%;
+  }
+  .portfolio-card h4 {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+  .portfolio-card p {
+    font-size: 15px;
   }
 }
 
@@ -1383,6 +1403,13 @@ button,
 
   .portfolio-grid {
     justify-content: center;
+  }
+  .portfolio-card h4 {
+    font-size: 19px;
+    margin: 15px 0;
+  }
+  .portfolio-card p {
+    font-size: 13px;
   }
 }
 
@@ -1431,6 +1458,9 @@ button,
     justify-content: center;
     align-items: center;
   }
+  .portfolio-card {
+    width: 80%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1447,9 +1477,9 @@ button,
   .theme-toggle span {
     font-size: 15px;
   }
-  /* .toggle-btn {
-    right: 10px;
-  } */
+  .portfolio-card img {
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: 415px) {
@@ -1460,6 +1490,15 @@ button,
 
   .header li a {
     font-size: 11px;
+  }
+  .portfolio-grid {
+    gap: 0;
+  }
+  .portfolio-card {
+    width: 100%;
+  }
+  .portfolio-card h4 {
+    margin: 7px 0;
   }
 }
 
