@@ -1480,6 +1480,18 @@ button,
   .portfolio-card img {
     border-radius: 10px;
   }
+  .portfolio-grid {
+    gap: 10px;
+  }
+  .portfolio-card {
+    width: 100%;
+  }
+  .portfolio-card img {
+    border-radius: 10px;
+  }
+  .portfolio-card h4 {
+    margin: 7px 0;
+  }
 }
 
 @media (max-width: 415px) {
