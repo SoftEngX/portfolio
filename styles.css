@@ -1459,7 +1459,13 @@ button,
     align-items: center;
   }
   .portfolio-card {
-    width: 80%;
+    width: 100%;
+  }
+  .portfolio-card h4 {
+    margin: 10px 0;
+  }
+  .portfolio-card p {
+    margin: 0 0;
   }
 }
 
@@ -1476,9 +1482,6 @@ button,
   }
   .theme-toggle span {
     font-size: 15px;
-  }
-  .portfolio-card img {
-    border-radius: 10px;
   }
   .portfolio-grid {
     gap: 10px;
