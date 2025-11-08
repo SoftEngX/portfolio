@@ -326,7 +326,6 @@ body.light .card:hover {
     height: 165px;
     cursor: pointer;
     border-radius: 50%;
-    /* border: none; */
     transition: transform 0.3s ease;
 }
 
@@ -451,7 +450,7 @@ body.light .block::-webkit-scrollbar-thumb {
 
 .main-content {
   position: relative;
-    margin-left: 320px; /* ровно уходит от sidebar */
+    margin-left: 320px;
     padding: 40px;
     background: #1e1e1f;
     border-radius: 20px;
