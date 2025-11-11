@@ -132,7 +132,7 @@ body.light .card:hover {
     background: #e0e0e0;
 }
 
-  body.light .card-icon svg {
+  body.light .card-icon img {
     color: #319795;
     /* filter: invert(70%); */
   }
