@@ -132,8 +132,9 @@ body.light .card:hover {
     background: #e0e0e0;
 }
 
-  body.light .card-icon img {
-    filter: invert(70%);
+  body.light .card-icon svg {
+    color: #319795;
+    /* filter: invert(70%); */
   }
   body.light .card-content h3 {
     color: #222;
