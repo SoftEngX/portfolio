@@ -110,5 +110,3 @@ document.addEventListener("DOMContentLoaded", () => {
 btnSubmit.addEventListener("click", () => {
   alert("Форма отправлена!");
 });
-
-

@@ -622,7 +622,6 @@ nav a.active {
 .full-card {
     display: flex;
     justify-content: space-between;
-    /* grid-template-columns: 1fr 1fr; */
     gap: 25px;
     margin-top: 40px;
     flex-wrap: wrap;
@@ -631,7 +630,6 @@ nav a.active {
 
 .card {
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     width: 430px;
     /* height: auto; */
     padding: 20px 15px;
