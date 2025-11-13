@@ -305,7 +305,9 @@ body.light .card:hover {
 }
 
 .sidebar {
+  position: sticky;
   width: 300px;
+  margin-top: 60px;
   /* max-height: 250px; */
   background: #1c1c1c;
   padding: 30px;
@@ -452,6 +454,8 @@ body.light .block::-webkit-scrollbar-thumb {
 .main-content {
   position: relative;
     margin-left: 320px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 40px;
     background: #1e1e1f;
     border-radius: 20px;
