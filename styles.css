@@ -640,9 +640,10 @@ nav a.active {
     transition: background 0.3s, color 0.3s;
 }
 
-.card-icon img {
-    width: 35px;
-    height: 35px;
+.card-icon svg {
+    width: 53px;
+    height: 53px;
+    stroke: #f7d27c;
 }
 
 .card-content h3 {
