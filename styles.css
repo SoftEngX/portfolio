@@ -476,7 +476,6 @@ body.light .block::-webkit-scrollbar-thumb {
     position: absolute;
     top: 0;
     right: 0;
-    /* left: auto; */
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
