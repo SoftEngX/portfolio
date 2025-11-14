@@ -133,7 +133,9 @@ body.light .card:hover {
 }
 
   body.light .card-icon svg {
-    stroke: #319795;
+    stroke: #1d3231;
+    /* background: #319795; */
+    border-radius: 10px;
     /* filter: invert(70%); */
   }
   body.light .card-content h3 {
@@ -645,8 +647,8 @@ nav a.active {
 }
 
 .card-icon svg {
-    width: 53px;
-    height: 53px;
+    width: 40px;
+    height: 40px;
     stroke: #f7d27c;
 }
 
