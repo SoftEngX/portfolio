@@ -381,7 +381,6 @@ body.light .card:hover {
   background-color: #4e4e4e;
 }
 
-
 .contact-item {
     display: flex;
     align-items: center;
@@ -434,8 +433,6 @@ body.light .card:hover {
     margin-top: 40px;
 }
 
-
-
 .socials a img {
     width: 20px;
     filter: invert(40%);
@@ -475,7 +472,6 @@ body.light .block::-webkit-scrollbar-thumb {
     border: 1px solid rgb(53, 53, 53);
     z-index: 1000;
     transition: background 0.3s, color 0.3s;
-
 }
 
 .header ul {
