@@ -589,6 +589,7 @@ nav a.active {
     background-color: #f7d27c;
     border-radius: 2px;
 }
+
 #contact h2::before {
     content: "";
     position: absolute;
@@ -623,13 +624,11 @@ nav a.active {
     gap: 25px;
     margin-top: 40px;
     flex-wrap: wrap;
-
 }
 
 .card {
     display: flex;
     width: 430px;
-    /* height: auto; */
     padding: 20px 15px;
     gap: 15px;
     border-radius: 15px;
