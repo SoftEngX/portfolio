@@ -308,7 +308,6 @@ body.light .card:hover {
   position: sticky;
   width: 300px;
   margin-top: 60px;
-  /* max-height: 250px; */
   background: #1c1c1c;
   padding: 30px;
   position: fixed;
