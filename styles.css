@@ -42,7 +42,6 @@ body.light {
   }
   body.light .avatar {
     border-radius: 50%;
-    /* border: 1px solid #a8a8a8; */
   }
   
   body.light .contact-item .icon {
