@@ -136,7 +136,6 @@ body.light .card:hover {
   body.light .card-icon svg {
     stroke: #319795;
     border-radius: 10px;
-    /* filter: invert(70%); */
   }
   body.light .card-content h3 {
     color: #222;
