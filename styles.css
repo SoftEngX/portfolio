@@ -129,7 +129,6 @@ body.light {
   }
 
 body.light .card:hover {
-    /* background: #e0e0e0; */
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
