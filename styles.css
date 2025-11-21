@@ -270,7 +270,6 @@ background: linear-gradient(166deg,rgba(250, 250, 250, 1) 0%, rgba(255, 255, 255
   }
   body.light .timeline-content span {
     color: #319795;
-    font-weight: 600;
   }
   body.light .timeline-content ul li {
     color: #545454;
