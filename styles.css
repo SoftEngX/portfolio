@@ -208,6 +208,8 @@ body.light .card:hover {
     color: #319795;
   }
   body.light .skill-grid {
+    background: #FAFAFA;
+background: linear-gradient(212deg,rgba(250, 250, 250, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(141, 242, 241, 1) 100%);
     border-left: 1px solid #319795;
     border-right: 1px solid #319795;
   }
