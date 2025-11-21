@@ -1,4 +1,4 @@
-// 🌙 Темная/светлая тема
+//  Темная/светлая тема
 const toggle = document.getElementById("themeToggle");
 const body = document.body;
 const sunIcon = document.querySelector(".sun-icon");
@@ -34,7 +34,7 @@ toggle.addEventListener("click", () => {
   }
 });
 
-// 📩 Модалка
+//  Модалка
 // function openModal() {
 //   const modal = document.getElementById("modal");
 //   modal.style.display = "flex";
@@ -63,7 +63,7 @@ toggleBtn.addEventListener("click", () => {
 });
 
 
-// 🧭 SPA-навигация + активная ссылка
+// SPA-навигация + активная ссылка
 document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelectorAll("nav a");
   const sections = document.querySelectorAll(".section");
