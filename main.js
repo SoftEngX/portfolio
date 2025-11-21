@@ -1,4 +1,3 @@
-//  Темная/светлая тема
 const toggle = document.getElementById("themeToggle");
 const body = document.body;
 const sunIcon = document.querySelector(".sun-icon");
@@ -35,21 +34,21 @@ toggle.addEventListener("click", () => {
 });
 
 //  Модалка
-function openModal() {
-  const modal = document.getElementById("modal");
-  modal.style.display = "flex";
-  setTimeout(() => {
-    modal.classList.add("show");
-  }, 10);
-}
+// function openModal() {
+//   const modal = document.getElementById("modal");
+//   modal.style.display = "flex";
+//   setTimeout(() => {
+//     modal.classList.add("show");
+//   }, 10);
+// }
 
-function closeModal() {
-  const modal = document.getElementById("modal");
-  modal.classList.remove("show");
-  setTimeout(() => {
-    modal.style.display = "none";
-  }, 300);
-}
+// function closeModal() {
+//   const modal = document.getElementById("modal");
+//   modal.classList.remove("show");
+//   setTimeout(() => {
+//     modal.style.display = "none";
+//   }, 300);
+// }
 
 const toggleBtn = document.getElementById("toggle-btn");
 const contacts = document.getElementById("contacts");
