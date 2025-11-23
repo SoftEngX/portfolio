@@ -249,7 +249,7 @@ body.light .card:hover {
     color: #3a3a3a;
   }
   body.light .timeline-section {
-    /* background: #f9f8f8; */
+    background: #f7fafa;
     padding: 40px;
     border-radius: 10px;
     border-left: 1px solid #dee1e1;
