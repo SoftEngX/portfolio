@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", () => {
       link.classList.remove("active");
     });
 
-    // Показываем нужную секцию
     const target = document.querySelector(id);
     if (target) {
       target.classList.add("active");
