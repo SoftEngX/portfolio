@@ -92,7 +92,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Показываем первую секцию при загрузке
   showSection("#about");
 
   navLinks.forEach((link) => {
