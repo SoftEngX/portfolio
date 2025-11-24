@@ -74,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
       section.classList.remove("active");
     });
 
-    // Убираем активный класс со всех ссылок
     navLinks.forEach((link) => {
       link.classList.remove("active");
     });
