@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sections = document.querySelectorAll(".section");
 
   function showSection(id) {
+    // Скрываем все секции
 
     sections.forEach((section) => {
       section.classList.remove("active");
