@@ -34,6 +34,7 @@ toggle.addEventListener("click", () => {
 });
 
 
+//  Модалка
 function openModal() {
   const modal = document.getElementById("modal");
   modal.style.display = "flex";
