@@ -63,6 +63,7 @@ toggleBtn.addEventListener("click", () => {
 });
 
 
+// SPA-навигация + активная ссылка
 document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelectorAll("nav a");
   const sections = document.querySelectorAll(".section");
