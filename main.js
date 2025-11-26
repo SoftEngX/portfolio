@@ -86,6 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
       target.classList.add("active");
     }
 
+    // Подсвечиваем соответствующую ссылку
     const activeLink = document.querySelector(`nav a[href="${id}"]`);
     if (activeLink) {
       activeLink.classList.add("active");
