@@ -74,12 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
     sections.forEach((section) => {
       section.classList.remove("active");
     });
-    
+
     // Убираем активный класс со всех ссылок
     navLinks.forEach((link) => {
       link.classList.remove("active");
     });
 
+    // Показываем нужную секцию
     const target = document.querySelector(id);
     if (target) {
       target.classList.add("active");
