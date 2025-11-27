@@ -328,7 +328,7 @@ body.light .card:hover {
     width: 150px;
     height: 165px;
     cursor: pointer;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     transition: transform 0.3s ease;
 }
 
