@@ -367,21 +367,18 @@ body.light .active-status {
   font-size: 14px;
   border-radius: 10px;
 }
-
 .divider {
   width: 100%;
   height: 1px;
   margin: 30px 0;
   background-color: #4e4e4e;
 }
-
 .contact-item {
   display: flex;
   align-items: center;
   gap: 15px;
   margin: 20px 0;
 }
-
 .contact-item .icon {
   display: flex;
   justify-content: center;
@@ -395,19 +392,16 @@ body.light .active-status {
   box-shadow: inset 1px 1px 0px rgb(49, 49, 49),
     inset -1px -1px 0px rgb(17, 17, 17);
 }
-
 .icon svg {
   width: 23px;
   height: 23px;
   stroke-width: 1px;
 }
-
 .contact-link {
   display: flex;
   flex-direction: column;
   margin-top: -15px;
 }
-
 .contact-link p {
   text-transform: uppercase;
   color: rgb(165, 165, 165);
