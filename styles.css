@@ -328,7 +328,6 @@ body.light .active-status {
   border-radius: 50%;
   transition: transform 0.3s ease;
 }
-
 .modal {
   display: none;
   position: fixed;
@@ -343,7 +342,6 @@ body.light .active-status {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-
 .modal-content {
   max-width: 400px;
   max-height: 400px;
@@ -352,12 +350,10 @@ body.light .active-status {
   transform: scale(0.9);
   transition: transform 0.3s ease;
 }
-
 .modal.show {
   display: flex;
   opacity: 1;
 }
-
 .modal.show .modal-content {
   transform: scale(1);
 }
