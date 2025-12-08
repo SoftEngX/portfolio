@@ -996,7 +996,9 @@ textarea {
 
 .knowledge__icon-title svg {
   font-size: 2em;
-  color: #f7d27c;
+  /* color: #f7d27c; */
+  color: #d76141;
+
 }
 
 .skill-knowledge {
@@ -1015,7 +1017,9 @@ textarea {
 }
 
 .skill-knowledge ul li .flex__it svg {
-  color: #f7d27c;
+  /* color: #f7d27c; */
+  color: #d76141;
+
 }
 
 .timeline-section {
