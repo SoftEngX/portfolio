@@ -860,7 +860,8 @@ textarea {
 
 .design__icon-title svg {
   font-size: 2em;
-  color: #f7d27c;
+  /* color: #f7d27c; */
+  color: #d76141;
 }
 
 .design__icon-title,
@@ -881,7 +882,8 @@ textarea {
 
 .skill-progress {
   height: 100%;
-  background: #f7d27c;
+  /* background: #f7d27c; */
+  background: #d76141;
   border-radius: 4px;
 }
 
@@ -897,7 +899,8 @@ textarea {
 
 .language__icon-title svg {
   font-size: 2em;
-  color: #f7d27c;
+  /* color: #f7d27c; */
+  color: #d76141;
 }
 
 .language-name {
@@ -919,7 +922,8 @@ textarea {
 }
 
 .language-dots span.filled {
-  background: #f7d27c;
+  /* background: #f7d27c; */
+  background: #d76141;
 }
 
 .coding__icon-title {
