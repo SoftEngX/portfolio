@@ -491,6 +491,7 @@ body.light .block::-webkit-scrollbar-thumb {
 
 nav a.active {
   color: #f7d27c;
+  /* color: #d76141; */
   font-weight: bold;
 }
 
@@ -882,8 +883,8 @@ textarea {
 
 .skill-progress {
   height: 100%;
-  /* background: #f7d27c; */
-  background: #d76141;
+  background: #f7d27c;
+  /* background: #d76141; */
   border-radius: 4px;
 }
 
