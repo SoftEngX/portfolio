@@ -965,8 +965,8 @@ textarea {
 
 .circle {
   fill: none;
-  /* stroke: #f7d27c; */
-  stroke: #d76141;
+  stroke: #f7d27c;
+  /* stroke: #d76141; */
   stroke-width: 3;
   transition: stroke-dasharray 1s ease;
 }
@@ -977,8 +977,8 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.2em;
-  /* color: #f7d27c; */
-  color: #d76141;
+  color: #f7d27c;
+  /* color: #d76141; */
   font-weight: 500;
 }
 
