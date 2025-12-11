@@ -314,7 +314,7 @@ body.light .active-status {
   padding: 30px;
   position: fixed;
   /* border: 1px solid rgb(53, 53, 53); */
-  border: 1px solid #f7d27c;
+  border: 1px solid #815c04;
   border-radius: 20px;
   transition: background 0.3s, color 0.3s;
   
@@ -449,7 +449,7 @@ body.light .block::-webkit-scrollbar-thumb {
   background: #1e1e1f;
   border-radius: 20px;
   /* border: 1px solid rgb(53, 53, 53); */
-  border: 1px solid #f7d27c;
+  border: 1px solid #815c04;
   min-height: 100vh;
   transition: background 0.3s, color 0.3s;
 }
