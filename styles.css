@@ -19,8 +19,8 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  /* background-color: #121212; */
-  background-color: #262525;
+  background-color: #121212;
+  /* background-color: #262525; */
   color: #fff;
   padding: 0;
 }
