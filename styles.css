@@ -187,8 +187,7 @@ body.light .btn_submit {
 }
 
 body.light .design__icon-title svg {
-  /* color: #319795; */
-  color: #1e3a8a	;
+  color: #319795;
 }
 body.light .language__icon-title svg {
   color: #319795;
@@ -207,8 +206,8 @@ body.light .language-dots span.filled {
   background: #319795;
 }
 body.light .circle {
-  /* stroke: #319795; */
-  stroke: #1e3a8a;
+  stroke: #319795;
+
 }
 body.light .circle-percent {
   color: #319795;
