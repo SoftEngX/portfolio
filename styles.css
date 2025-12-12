@@ -211,7 +211,7 @@ body.light .circle-percent {
   color: #319795;
 }
 body.light .skill-grid {
-  background: #fafafa;
+  /* background: #fafafa; */
   border-left: 1px solid #319795;
   border-right: 1px solid #319795;
 }
@@ -849,6 +849,7 @@ textarea {
   padding-left: 20px;
   border-right: 1px solid #4e4e4e;
   padding-right: 20px;
+  margin-bottom: 20px;
 }
 
 .skill-box {
