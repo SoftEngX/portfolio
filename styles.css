@@ -313,8 +313,8 @@ body.light .active-status {
   background: #1c1c1c;
   padding: 30px;
   position: fixed;
-  /* border: 1px solid rgb(53, 53, 53); */
-  border: 1px solid #815c04;
+  border: 1px solid rgb(53, 53, 53);
+  /* border: 1px solid #815c04; */
   border-radius: 20px;
   transition: background 0.3s, color 0.3s;
   
