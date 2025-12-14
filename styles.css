@@ -972,7 +972,7 @@ textarea {
   fill: none;
   stroke: #f7d27c;
   /* stroke: #d76141; */
-  stroke-width: 4;
+  stroke-width: 3;
   transition: stroke-dasharray 1s ease;
 }
 
