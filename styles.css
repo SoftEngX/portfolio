@@ -982,8 +982,8 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.2em;
-  color: #f7d27c;
-  /* color: #d76141; */
+  /* color: #f7d27c; */
+  color: #d76141;
   font-weight: 500;
 }
 
